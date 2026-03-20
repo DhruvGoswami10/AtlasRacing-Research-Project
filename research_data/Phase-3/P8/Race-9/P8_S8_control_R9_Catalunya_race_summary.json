@@ -1,0 +1,41 @@
+{
+  "raceId": "P8_S8_control_R9_Catalunya",
+  "participantId": "P8",
+  "date": "2026-02-09T04:11:00.000Z",
+  "track": "Catalunya",
+  "trackId": 4,
+  "seasonType": "control",
+  "seasonNumber": 8,
+  "raceNumber": 9,
+  "totalLaps": 17,
+  "difficulty": 80,
+  "startingPosition": 19,
+  "finishPosition": 4,
+  "points": 12,
+  "fastestLap": false,
+  "bestLapMs": 77755,
+  "avgLapMs": 81493,
+  "pitStops": [
+    {
+      "lap": 9,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 11,
+      "positionAfter": 18,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 30,
+  "llmAvgLatencyMs": 2891,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 8,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P19 and finished P4. 1 stop on Lap9 S->M. Control-condition style run with confident rotation through medium-speed corners and mostly manual timing calls."
+}

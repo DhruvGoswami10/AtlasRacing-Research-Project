@@ -1,0 +1,33 @@
+{
+  "raceId": "P19_S19_llm_R18_Singapore",
+  "participantId": "P19",
+  "phase": "Phase-3",
+  "condition": "llm",
+  "track": "Singapore",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:08:37Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 100,
+    "physicalDemand": 80,
+    "temporalDemand": 60,
+    "performance": 5,
+    "effort": 95,
+    "frustration": 30,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 61.7
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 6
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 5
+  },
+  "openText": {
+    "comment": ""
+  }
+}

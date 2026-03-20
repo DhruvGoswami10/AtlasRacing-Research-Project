@@ -1,0 +1,33 @@
+{
+  "raceId": "P9_S9_control_R19_Austin",
+  "participantId": "P9",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Austin",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:04:44Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 75,
+    "physicalDemand": 90,
+    "temporalDemand": 90,
+    "performance": 60,
+    "effort": 80,
+    "frustration": 65,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 76.7
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 5
+  },
+  "openText": {
+    "comment": ""
+  }
+}

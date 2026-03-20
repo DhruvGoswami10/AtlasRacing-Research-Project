@@ -1,0 +1,33 @@
+{
+  "raceId": "S1_control_R7_Monza",
+  "participantId": "S1",
+  "phase": "Phase-1",
+  "condition": "control",
+  "track": "Monza",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-16T16:49:18Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 20,
+    "physicalDemand": 40,
+    "temporalDemand": 40,
+    "performance": 10,
+    "effort": 70,
+    "frustration": 30,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 35
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

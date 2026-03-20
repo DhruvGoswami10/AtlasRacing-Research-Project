@@ -1,0 +1,33 @@
+{
+  "raceId": "P8_S8_control_R8_Monaco",
+  "participantId": "P8",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Monaco",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:04:18Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 85,
+    "physicalDemand": 100,
+    "temporalDemand": 100,
+    "performance": 50,
+    "effort": 100,
+    "frustration": 30,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 77.5
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

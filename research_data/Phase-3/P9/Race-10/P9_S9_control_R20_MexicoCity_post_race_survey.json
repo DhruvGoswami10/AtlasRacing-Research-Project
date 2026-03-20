@@ -1,0 +1,33 @@
+{
+  "raceId": "P9_S9_control_R20_MexicoCity",
+  "participantId": "P9",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Mexico City",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:04:46Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 70,
+    "physicalDemand": 90,
+    "temporalDemand": 35,
+    "performance": 75,
+    "effort": 90,
+    "frustration": 100,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 76.7
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

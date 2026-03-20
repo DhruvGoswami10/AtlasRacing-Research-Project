@@ -1,0 +1,41 @@
+{
+  "raceId": "P17_S17_llm_R20_MexicoCity",
+  "participantId": "P17",
+  "date": "2026-02-18T06:07:00.000Z",
+  "track": "Mexico City",
+  "trackId": 19,
+  "seasonType": "llm",
+  "seasonNumber": 17,
+  "raceNumber": 20,
+  "totalLaps": 18,
+  "difficulty": 80,
+  "startingPosition": 18,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": true,
+  "bestLapMs": 79524,
+  "avgLapMs": 83882,
+  "pitStops": [
+    {
+      "lap": 11,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 1,
+      "positionAfter": 4,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 29,
+  "llmAvgLatencyMs": 3548,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 6,
+  "llmERSCalls": 8,
+  "llmDriverQuestions": 2,
+  "followedRate": 67,
+  "notes": "Strategy Quality: correct. Started P18 and finished P1. 1 stop on Lap11 M->H. Phase-3 synthetic run based on Phase-2 patterns, with strong battery discipline on straights. Followed roughly 67% of the explicit advice."
+}

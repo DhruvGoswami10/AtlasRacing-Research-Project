@@ -1,0 +1,41 @@
+{
+  "raceId": "P8_S8_llm_R4_Bahrain",
+  "participantId": "P8",
+  "date": "2026-02-08T18:22:00.000Z",
+  "track": "Bahrain",
+  "trackId": 3,
+  "seasonType": "llm",
+  "seasonNumber": 8,
+  "raceNumber": 4,
+  "totalLaps": 14,
+  "difficulty": 80,
+  "startingPosition": 17,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": false,
+  "bestLapMs": 92790,
+  "avgLapMs": 97675,
+  "pitStops": [
+    {
+      "lap": 9,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 1,
+      "positionAfter": 1,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 15,
+  "llmAvgLatencyMs": 2111,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 50,
+  "notes": "Strategy Quality: correct. Started P17 and finished P1. 1 stop on Lap9 S->M. Phase-3 synthetic run based on Phase-2 patterns, with confident rotation through medium-speed corners. Followed roughly 50% of the explicit advice."
+}

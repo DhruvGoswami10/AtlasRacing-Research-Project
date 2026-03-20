@@ -1,0 +1,33 @@
+{
+  "raceId": "P18_S18_llm_R15_Zandvoort",
+  "participantId": "P18",
+  "phase": "Phase-3",
+  "condition": "llm",
+  "track": "Zandvoort",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:08:06Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 70,
+    "physicalDemand": 60,
+    "temporalDemand": 20,
+    "performance": 0,
+    "effort": 90,
+    "frustration": 0,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 40
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 7
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

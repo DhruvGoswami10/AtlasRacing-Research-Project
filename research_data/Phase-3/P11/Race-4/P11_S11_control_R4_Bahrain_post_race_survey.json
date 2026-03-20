@@ -1,0 +1,33 @@
+{
+  "raceId": "P11_S11_control_R4_Bahrain",
+  "participantId": "P11",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Bahrain",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:05:19Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 60,
+    "physicalDemand": 80,
+    "temporalDemand": 100,
+    "performance": 85,
+    "effort": 90,
+    "frustration": 0,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 69.2
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 5
+  },
+  "openText": {
+    "comment": ""
+  }
+}

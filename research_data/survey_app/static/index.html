@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atlas Racing Survey Capture</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Atlas Racing Research</p>
+          <h1>Post-Race Survey Capture</h1>
+          <p class="subtitle">
+            Collect NASA-TLX and trust responses against the existing race archive,
+            then export a flat CSV for analysis.
+          </p>
+        </div>
+        <div class="hero-actions">
+          <a class="button secondary" href="/api/export.csv">Download CSV</a>
+        </div>
+      </header>
+
+      <section class="stats-grid" id="statsGrid"></section>
+
+      <section class="workspace">
+        <aside class="panel list-panel">
+          <div class="panel-header">
+            <h2>Race Queue</h2>
+            <p>Filter the archive, then open a race to capture a response.</p>
+          </div>
+
+          <div class="filters">
+            <label>
+              <span>Phase</span>
+              <select id="phaseFilter"></select>
+            </label>
+            <label>
+              <span>Participant</span>
+              <select id="participantFilter"></select>
+            </label>
+            <label>
+              <span>Condition</span>
+              <select id="conditionFilter">
+                <option value="all">All</option>
+                <option value="control">Control</option>
+                <option value="llm">AI-Assisted</option>
+              </select>
+            </label>
+            <label>
+              <span>Status</span>
+              <select id="statusFilter">
+                <option value="all">All</option>
+                <option value="pending">Pending</option>
+                <option value="completed">Completed</option>
+              </select>
+            </label>
+            <label class="search">
+              <span>Search</span>
+              <input
+                id="searchInput"
+                type="search"
+                placeholder="Track, race ID, participant..."
+              />
+            </label>
+          </div>
+
+          <div class="race-list" id="raceList"></div>
+        </aside>
+
+        <main class="panel detail-panel">
+          <div class="empty-state" id="emptyState">
+            <h2>Select a race</h2>
+            <p>
+              The right-hand panel will show the race context and survey form once
+              you choose a record from the queue.
+            </p>
+          </div>
+
+          <div id="detailContent" hidden>
+            <div class="detail-header">
+              <div>
+                <p class="eyebrow" id="detailPhase"></p>
+                <h2 id="detailTitle"></h2>
+                <p class="subtitle" id="detailSubtitle"></p>
+                <p class="detail-code" id="detailCode"></p>
+              </div>
+              <span class="status-pill" id="detailStatus"></span>
+            </div>
+
+            <div class="meta-grid">
+              <article class="meta-card">
+                <span>Track</span>
+                <strong id="detailTrack"></strong>
+              </article>
+              <article class="meta-card">
+                <span>Date</span>
+                <strong id="detailDate"></strong>
+              </article>
+              <article class="meta-card">
+                <span>Start</span>
+                <strong id="detailStart"></strong>
+              </article>
+              <article class="meta-card">
+                <span>Finish</span>
+                <strong id="detailFinish"></strong>
+              </article>
+              <article class="meta-card">
+                <span>Points</span>
+                <strong id="detailPoints"></strong>
+              </article>
+              <article class="meta-card">
+                <span>Laps completed</span>
+                <strong id="detailLaps"></strong>
+              </article>
+            </div>
+
+            <section class="recap-section">
+              <div class="section-head">
+                <h3>Race Recap</h3>
+                <p id="detailHeadline"></p>
+              </div>
+
+              <div class="recap-grid" id="detailRecapCards"></div>
+
+              <div class="event-grid">
+                <article class="event-card">
+                  <h4>Key moments</h4>
+                  <ul class="event-list" id="detailKeyMoments"></ul>
+                </article>
+                <article class="event-card">
+                  <h4>Strategy timeline</h4>
+                  <ul class="event-list" id="detailTimeline"></ul>
+                </article>
+              </div>
+            </section>
+
+            <details class="summary-note">
+              <summary>Archived race note</summary>
+              <p id="detailNotes"></p>
+            </details>
+
+            <form id="surveyForm">
+              <section class="survey-section">
+                <div class="section-head">
+                  <h3>NASA-TLX</h3>
+                  <p>
+                    Score each item from 0 to 100. Higher values mean more workload.
+                    For Performance, higher means you felt performance was worse.
+                  </p>
+                </div>
+                <div id="tlxFields" class="tlx-grid"></div>
+                <div class="raw-tlx-banner">
+                  <span>Raw TLX</span>
+                  <strong id="rawTlxValue">0.0</strong>
+                </div>
+              </section>
+
+              <section class="survey-section">
+                <div class="section-head">
+                  <h3>Trust In AI Race Engineer</h3>
+                  <p id="trustHelp">
+                    This item is collected only for AI-assisted races.
+                  </p>
+                </div>
+                <div id="trustScale" class="scale-options"></div>
+              </section>
+
+              <section class="survey-section">
+                <div class="section-head">
+                  <h3>Recall Confidence</h3>
+                  <p>How confident are you in your recollection of this race?</p>
+                </div>
+                <div id="recallScale" class="scale-options"></div>
+              </section>
+
+              <section class="survey-section">
+                <div class="section-head">
+                  <h3>Comment</h3>
+                  <p>Optional note about the race, memory, or workload.</p>
+                </div>
+                <textarea
+                  id="commentInput"
+                  rows="5"
+                  placeholder="Anything worth capturing about this race?"
+                ></textarea>
+              </section>
+
+              <div class="form-actions">
+                <button class="button primary" id="saveButton" type="submit" disabled>
+                  Save survey
+                </button>
+                <span id="saveStatus" class="save-status"></span>
+              </div>
+            </form>
+          </div>
+        </main>
+      </section>
+    </div>
+
+    <script src="/static/app.js" type="module"></script>
+  </body>
+</html>

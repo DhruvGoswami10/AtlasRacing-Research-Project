@@ -48,11 +48,11 @@ npm start
 ## Architecture
 
 ```
-F1 Game → UDP :20777 → Python Bridge → WebSocket :8080 → React Dashboard
-                                                              ↓
-                                                    LLM Race Engineer (OpenAI)
-                                                              ↓
-                                                    Research Data Logger
+F1 Game → UDP :20777 → C++ Backend → SSE :8080 → React Dashboard
+                                                       ↓
+                                              LLM Race Engineer (OpenAI)
+                                                       ↓
+                                              Research Data Logger
 ```
 
 ### Key Components
@@ -64,6 +64,7 @@ F1 Game → UDP :20777 → Python Bridge → WebSocket :8080 → React Dashboard
 | `services/broadcasting_engine.ts` | Event detection (SC, weather, battles) |
 | `services/research_logger.ts` | Research data collection and export |
 | `dashboard/integrations/AtlasLink/` | Python UDP bridge for F1 telemetry |
+| `research_data/survey_app/` | Post-race NASA-TLX and trust survey tool |
 
 ## Research Mode
 
@@ -82,10 +83,38 @@ When research mode is enabled (LLM season type), the system captures:
 
 ```
 research_data/
-├── S1_llm_R1_Interlagos_lap_telemetry.csv    # Per-lap data
-├── S1_llm_R1_Interlagos_llm_interactions.json # All LLM calls
-└── S1_llm_R1_Interlagos_race_summary.json    # Race metadata
+├── Phase-1/          (Pilot: 10 races, 100% distance)
+│   └── Race-1/ ... Race-10/
+│       ├── *_lap_telemetry.csv
+│       ├── *_llm_interactions.json
+│       ├── *_race_summary.json
+│       └── *_post_race_survey.json
+├── Phase-2/          (Study: 40 races, 50% distance)
+│   ├── P1/ ... P4/   (4 participants × 10 races)
+│       └── Race-1/ ... Race-10/
+├── Phase-3/          (Extended: additional participants)
+│   └── P5/ ... P7/
+└── survey_app/       (Post-race survey tool)
 ```
+
+### Post-Race Survey Tool
+
+A built-in web app for collecting NASA-TLX workload and trust ratings after each race. It scans the research data directory, shows a race recap with key moments, and captures structured survey responses (saved as JSON alongside the race data).
+
+```bash
+# Run locally
+cd research_data
+python survey_app/server.py
+
+# Or use the launcher
+run_post_race_survey_app.bat
+```
+
+Opens at `http://localhost:8765`. Features:
+- NASA-TLX workload assessment (6 dimensions, 0–100 scale)
+- Trust-in-AI rating (1–7 Likert, shown only for LLM condition races)
+- Race recap with position swing, pit strategy timeline, and weather events
+- CSV export of all completed surveys via `/api/export.csv`
 
 ### Research Protocol
 

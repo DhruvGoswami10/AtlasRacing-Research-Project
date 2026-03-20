@@ -1,0 +1,41 @@
+{
+  "raceId": "P15_S15_llm_R11_RedBullRing",
+  "participantId": "P15",
+  "date": "2026-02-15T12:46:00.000Z",
+  "track": "Red Bull Ring",
+  "trackId": 17,
+  "seasonType": "llm",
+  "seasonNumber": 15,
+  "raceNumber": 11,
+  "totalLaps": 18,
+  "difficulty": 80,
+  "startingPosition": 15,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": false,
+  "bestLapMs": 68048,
+  "avgLapMs": 73135,
+  "pitStops": [
+    {
+      "lap": 9,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 1,
+      "positionAfter": 1,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 39,
+  "llmAvgLatencyMs": 2750,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 15,
+  "llmERSCalls": 8,
+  "llmDriverQuestions": 0,
+  "followedRate": 100,
+  "notes": "Strategy Quality: correct. Started P15 and finished P1. 1 stop on Lap9 M->H. Phase-3 synthetic run based on Phase-2 patterns, with clean exits and measured tire saving. Followed roughly 100% of the explicit advice."
+}

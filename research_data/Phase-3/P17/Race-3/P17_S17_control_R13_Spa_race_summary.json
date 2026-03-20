@@ -1,0 +1,41 @@
+{
+  "raceId": "P17_S17_control_R13_Spa",
+  "participantId": "P17",
+  "date": "2026-02-17T16:08:00.000Z",
+  "track": "Spa",
+  "trackId": 10,
+  "seasonType": "control",
+  "seasonNumber": 17,
+  "raceNumber": 13,
+  "totalLaps": 11,
+  "difficulty": 80,
+  "startingPosition": 17,
+  "finishPosition": 4,
+  "points": 12,
+  "fastestLap": false,
+  "bestLapMs": 108640,
+  "avgLapMs": 113303,
+  "pitStops": [
+    {
+      "lap": 6,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 6,
+      "positionAfter": 6,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 19,
+  "llmAvgLatencyMs": 3000,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 5,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P17 and finished P4. 1 stop on Lap6 S->M. Control-condition style run with strong battery discipline on straights and mostly manual timing calls."
+}

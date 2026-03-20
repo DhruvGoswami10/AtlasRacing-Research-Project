@@ -1,0 +1,41 @@
+{
+  "raceId": "P15_S15_control_R18_Singapore",
+  "participantId": "P15",
+  "date": "2026-02-16T02:34:00.000Z",
+  "track": "Singapore",
+  "trackId": 12,
+  "seasonType": "control",
+  "seasonNumber": 15,
+  "raceNumber": 18,
+  "totalLaps": 16,
+  "difficulty": 80,
+  "startingPosition": 18,
+  "finishPosition": 6,
+  "points": 8,
+  "fastestLap": false,
+  "bestLapMs": 95824,
+  "avgLapMs": 104406,
+  "pitStops": [
+    {
+      "lap": 9,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 2,
+      "positionAfter": 2,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 31,
+  "llmAvgLatencyMs": 3553,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 3,
+  "llmERSCalls": 7,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P18 and finished P6. 1 stop on Lap9 M->H. Control-condition style run with clean exits and measured tire saving and mostly manual timing calls."
+}

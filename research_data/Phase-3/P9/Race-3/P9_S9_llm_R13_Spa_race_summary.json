@@ -1,0 +1,41 @@
+{
+  "raceId": "P9_S9_llm_R13_Spa",
+  "participantId": "P9",
+  "date": "2026-02-09T16:18:00.000Z",
+  "track": "Spa",
+  "trackId": 10,
+  "seasonType": "llm",
+  "seasonNumber": 9,
+  "raceNumber": 13,
+  "totalLaps": 11,
+  "difficulty": 80,
+  "startingPosition": 20,
+  "finishPosition": 2,
+  "points": 18,
+  "fastestLap": false,
+  "bestLapMs": 108261,
+  "avgLapMs": 111795,
+  "pitStops": [
+    {
+      "lap": 6,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 3,
+      "positionAfter": 1,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 20,
+  "llmAvgLatencyMs": 2279,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 4,
+  "llmERSCalls": 5,
+  "llmDriverQuestions": 0,
+  "followedRate": 50,
+  "notes": "Strategy Quality: correct. Started P20 and finished P2. 1 stop on Lap6 S->M. Phase-3 synthetic run based on Phase-2 patterns, with tidy one-stop execution when the window opens. Followed roughly 50% of the explicit advice."
+}

@@ -1,0 +1,33 @@
+{
+  "raceId": "S1_control_R6_Spa",
+  "participantId": "S1",
+  "phase": "Phase-1",
+  "condition": "control",
+  "track": "Spa",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-16T16:48:46Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 20,
+    "physicalDemand": 15,
+    "temporalDemand": 30,
+    "performance": 0,
+    "effort": 85,
+    "frustration": 0,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 25
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

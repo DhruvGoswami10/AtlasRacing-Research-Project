@@ -1,0 +1,41 @@
+{
+  "raceId": "P12_S12_control_R7_Imola",
+  "participantId": "P12",
+  "date": "2026-02-13T00:44:00.000Z",
+  "track": "Imola",
+  "trackId": 27,
+  "seasonType": "control",
+  "seasonNumber": 12,
+  "raceNumber": 7,
+  "totalLaps": 16,
+  "difficulty": 80,
+  "startingPosition": 14,
+  "finishPosition": 2,
+  "points": 18,
+  "fastestLap": true,
+  "bestLapMs": 79868,
+  "avgLapMs": 84323,
+  "pitStops": [
+    {
+      "lap": 7,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 4,
+      "positionAfter": 7,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 21,
+  "llmAvgLatencyMs": 2187,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 7,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P14 and finished P2. 1 stop on Lap7 M->H. Control-condition style run with strong battery discipline on straights and mostly manual timing calls."
+}

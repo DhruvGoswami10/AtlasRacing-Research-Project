@@ -1,0 +1,41 @@
+{
+  "raceId": "P10_S10_control_R4_Bahrain",
+  "participantId": "P10",
+  "date": "2026-02-10T18:15:00.000Z",
+  "track": "Bahrain",
+  "trackId": 3,
+  "seasonType": "control",
+  "seasonNumber": 10,
+  "raceNumber": 4,
+  "totalLaps": 14,
+  "difficulty": 80,
+  "startingPosition": 20,
+  "finishPosition": 3,
+  "points": 15,
+  "fastestLap": false,
+  "bestLapMs": 93107,
+  "avgLapMs": 95905,
+  "pitStops": [
+    {
+      "lap": 8,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 2,
+      "positionAfter": 5,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 18,
+  "llmAvgLatencyMs": 2916,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P20 and finished P3. 1 stop on Lap8 S->M. Control-condition style run with clean exits and measured tire saving and mostly manual timing calls."
+}

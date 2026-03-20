@@ -1,0 +1,41 @@
+{
+  "raceId": "P17_S17_llm_R18_Singapore",
+  "participantId": "P17",
+  "date": "2026-02-18T02:27:00.000Z",
+  "track": "Singapore",
+  "trackId": 12,
+  "seasonType": "llm",
+  "seasonNumber": 17,
+  "raceNumber": 18,
+  "totalLaps": 16,
+  "difficulty": 80,
+  "startingPosition": 16,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": true,
+  "bestLapMs": 94307,
+  "avgLapMs": 97975,
+  "pitStops": [
+    {
+      "lap": 10,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 2,
+      "positionAfter": 2,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 26,
+  "llmAvgLatencyMs": 3351,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 8,
+  "llmERSCalls": 7,
+  "llmDriverQuestions": 1,
+  "followedRate": 90,
+  "notes": "Strategy Quality: correct. Started P16 and finished P1. 1 stop on Lap10 S->M. Phase-3 synthetic run based on Phase-2 patterns, with strong battery discipline on straights. Followed roughly 90% of the explicit advice."
+}

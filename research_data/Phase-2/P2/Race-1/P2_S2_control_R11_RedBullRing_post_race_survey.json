@@ -1,0 +1,33 @@
+{
+  "raceId": "P2_S2_control_R11_RedBullRing",
+  "participantId": "P2",
+  "phase": "Phase-2",
+  "condition": "control",
+  "track": "Red Bull Ring",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:01:33Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 60,
+    "physicalDemand": 40,
+    "temporalDemand": 50,
+    "performance": 70,
+    "effort": 95,
+    "frustration": 65,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 63.3
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

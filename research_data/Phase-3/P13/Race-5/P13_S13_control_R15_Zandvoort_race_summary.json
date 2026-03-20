@@ -1,0 +1,41 @@
+{
+  "raceId": "P13_S13_control_R15_Zandvoort",
+  "participantId": "P13",
+  "date": "2026-02-13T20:04:00.000Z",
+  "track": "Zandvoort",
+  "trackId": 26,
+  "seasonType": "control",
+  "seasonNumber": 13,
+  "raceNumber": 15,
+  "totalLaps": 18,
+  "difficulty": 80,
+  "startingPosition": 18,
+  "finishPosition": 10,
+  "points": 1,
+  "fastestLap": false,
+  "bestLapMs": 75076,
+  "avgLapMs": 79386,
+  "pitStops": [
+    {
+      "lap": 10,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 7,
+      "positionAfter": 10,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 27,
+  "llmAvgLatencyMs": 3006,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 2,
+  "llmERSCalls": 8,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: mixed. Started P18 and finished P10. 1 stop on Lap10 S->M. Control-condition style run with confident rotation through medium-speed corners and mostly manual timing calls."
+}

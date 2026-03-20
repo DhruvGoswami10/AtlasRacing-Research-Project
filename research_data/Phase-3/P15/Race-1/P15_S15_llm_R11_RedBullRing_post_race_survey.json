@@ -1,0 +1,33 @@
+{
+  "raceId": "P15_S15_llm_R11_RedBullRing",
+  "participantId": "P15",
+  "phase": "Phase-3",
+  "condition": "llm",
+  "track": "Red Bull Ring",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:06:48Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 60,
+    "physicalDemand": 40,
+    "temporalDemand": 90,
+    "performance": 0,
+    "effort": 95,
+    "frustration": 0,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 47.5
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 7
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "raceId": "P15_S15_llm_R13_Spa",
+  "participantId": "P15",
+  "phase": "Phase-3",
+  "condition": "llm",
+  "track": "Spa",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:06:53Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 40,
+    "physicalDemand": 100,
+    "temporalDemand": 35,
+    "performance": 0,
+    "effort": 100,
+    "frustration": 30,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 50.8
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 5
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

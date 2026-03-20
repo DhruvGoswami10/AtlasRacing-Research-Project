@@ -1,0 +1,41 @@
+{
+  "raceId": "P12_S12_llm_R5_Jeddah",
+  "participantId": "P12",
+  "date": "2026-02-12T20:39:00.000Z",
+  "track": "Jeddah",
+  "trackId": 29,
+  "seasonType": "llm",
+  "seasonNumber": 12,
+  "raceNumber": 5,
+  "totalLaps": 13,
+  "difficulty": 80,
+  "startingPosition": 18,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": true,
+  "bestLapMs": 93802,
+  "avgLapMs": 98051,
+  "pitStops": [
+    {
+      "lap": 8,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 2,
+      "positionAfter": 1,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 37,
+  "llmAvgLatencyMs": 2233,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 17,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 90,
+  "notes": "Strategy Quality: correct. Started P18 and finished P1. 1 stop on Lap8 S->M. Phase-3 synthetic run based on Phase-2 patterns, with strong battery discipline on straights. Followed roughly 90% of the explicit advice."
+}

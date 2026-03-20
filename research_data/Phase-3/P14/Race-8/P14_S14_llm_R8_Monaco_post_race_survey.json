@@ -1,0 +1,33 @@
+{
+  "raceId": "P14_S14_llm_R8_Monaco",
+  "participantId": "P14",
+  "phase": "Phase-3",
+  "condition": "llm",
+  "track": "Monaco",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:06:41Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 60,
+    "physicalDemand": 70,
+    "temporalDemand": 100,
+    "performance": 5,
+    "effort": 100,
+    "frustration": 0,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 55.8
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 6
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "raceId": "P4_S4_control_R16_Monza",
+  "participantId": "P4",
+  "phase": "Phase-2",
+  "condition": "control",
+  "track": "Monza",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:02:33Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 95,
+    "physicalDemand": 80,
+    "temporalDemand": 100,
+    "performance": 50,
+    "effort": 90,
+    "frustration": 85,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 83.3
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

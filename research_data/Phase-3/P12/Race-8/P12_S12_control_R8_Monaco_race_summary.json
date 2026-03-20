@@ -1,0 +1,41 @@
+{
+  "raceId": "P12_S12_control_R8_Monaco",
+  "participantId": "P12",
+  "date": "2026-02-13T02:44:00.000Z",
+  "track": "Monaco",
+  "trackId": 5,
+  "seasonType": "control",
+  "seasonNumber": 12,
+  "raceNumber": 8,
+  "totalLaps": 20,
+  "difficulty": 80,
+  "startingPosition": 20,
+  "finishPosition": 4,
+  "points": 12,
+  "fastestLap": true,
+  "bestLapMs": 74673,
+  "avgLapMs": 81465,
+  "pitStops": [
+    {
+      "lap": 6,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 7,
+      "positionAfter": 16,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 29,
+  "llmAvgLatencyMs": 2470,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 9,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P20 and finished P4. 1 stop on Lap6 M->H. Control-condition style run with strong battery discipline on straights and mostly manual timing calls."
+}

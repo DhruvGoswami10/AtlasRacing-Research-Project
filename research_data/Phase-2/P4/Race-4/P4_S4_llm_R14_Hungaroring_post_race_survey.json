@@ -1,0 +1,33 @@
+{
+  "raceId": "P4_S4_llm_R14_Hungaroring",
+  "participantId": "P4",
+  "phase": "Phase-2",
+  "condition": "llm",
+  "track": "Hungaroring",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:02:28Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 20,
+    "physicalDemand": 90,
+    "temporalDemand": 70,
+    "performance": 60,
+    "effort": 95,
+    "frustration": 15,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 58.3
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 7
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

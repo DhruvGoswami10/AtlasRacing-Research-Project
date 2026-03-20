@@ -1,0 +1,41 @@
+{
+  "raceId": "P10_S10_control_R3_Suzuka",
+  "participantId": "P10",
+  "date": "2026-02-10T16:18:00.000Z",
+  "track": "Suzuka",
+  "trackId": 13,
+  "seasonType": "control",
+  "seasonNumber": 10,
+  "raceNumber": 3,
+  "totalLaps": 13,
+  "difficulty": 80,
+  "startingPosition": 15,
+  "finishPosition": 3,
+  "points": 15,
+  "fastestLap": true,
+  "bestLapMs": 91474,
+  "avgLapMs": 95818,
+  "pitStops": [
+    {
+      "lap": 10,
+      "compoundFrom": "Medium",
+      "compoundTo": "Soft",
+      "positionBefore": 2,
+      "positionAfter": 4,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 21,
+  "llmAvgLatencyMs": 2862,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P15 and finished P3. 1 stop on Lap10 M->S. Control-condition style run with clean exits and measured tire saving and mostly manual timing calls."
+}

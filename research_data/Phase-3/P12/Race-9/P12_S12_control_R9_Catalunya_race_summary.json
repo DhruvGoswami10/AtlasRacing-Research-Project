@@ -1,0 +1,41 @@
+{
+  "raceId": "P12_S12_control_R9_Catalunya",
+  "participantId": "P12",
+  "date": "2026-02-13T04:37:00.000Z",
+  "track": "Catalunya",
+  "trackId": 4,
+  "seasonType": "control",
+  "seasonNumber": 12,
+  "raceNumber": 9,
+  "totalLaps": 17,
+  "difficulty": 80,
+  "startingPosition": 18,
+  "finishPosition": 2,
+  "points": 18,
+  "fastestLap": true,
+  "bestLapMs": 77572,
+  "avgLapMs": 81492,
+  "pitStops": [
+    {
+      "lap": 9,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 8,
+      "positionAfter": 18,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 30,
+  "llmAvgLatencyMs": 2872,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 8,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P18 and finished P2. 1 stop on Lap9 S->M. Control-condition style run with strong battery discipline on straights and mostly manual timing calls."
+}

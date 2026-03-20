@@ -1,0 +1,41 @@
+{
+  "raceId": "P19_S19_control_R13_Spa",
+  "participantId": "P19",
+  "date": "2026-02-19T16:24:00.000Z",
+  "track": "Spa",
+  "trackId": 10,
+  "seasonType": "control",
+  "seasonNumber": 19,
+  "raceNumber": 13,
+  "totalLaps": 11,
+  "difficulty": 80,
+  "startingPosition": 18,
+  "finishPosition": 4,
+  "points": 12,
+  "fastestLap": false,
+  "bestLapMs": 108452,
+  "avgLapMs": 113233,
+  "pitStops": [
+    {
+      "lap": 6,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 8,
+      "positionAfter": 6,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 19,
+  "llmAvgLatencyMs": 2826,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 5,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P18 and finished P4. 1 stop on Lap6 S->M. Control-condition style run with tidy one-stop execution when the window opens and mostly manual timing calls."
+}

@@ -1,0 +1,33 @@
+{
+  "raceId": "P6_S6_control_R6_Miami",
+  "participantId": "P6",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Miami",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:03:28Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 95,
+    "physicalDemand": 90,
+    "temporalDemand": 100,
+    "performance": 70,
+    "effort": 85,
+    "frustration": 50,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 81.7
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 5
+  },
+  "openText": {
+    "comment": ""
+  }
+}

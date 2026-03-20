@@ -1,0 +1,33 @@
+{
+  "raceId": "P18_S18_control_R16_Monza",
+  "participantId": "P18",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Monza",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:08:09Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 40,
+    "physicalDemand": 60,
+    "temporalDemand": 60,
+    "performance": 30,
+    "effort": 95,
+    "frustration": 80,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 60.8
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

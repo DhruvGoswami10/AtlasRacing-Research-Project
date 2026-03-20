@@ -1,0 +1,33 @@
+{
+  "raceId": "S1_control_R4_RedBullRing",
+  "participantId": "S1",
+  "phase": "Phase-1",
+  "condition": "control",
+  "track": "Red Bull Ring",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-14T19:03:39Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 100,
+    "physicalDemand": 100,
+    "temporalDemand": 100,
+    "performance": 35,
+    "effort": 100,
+    "frustration": 30,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 77.5
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

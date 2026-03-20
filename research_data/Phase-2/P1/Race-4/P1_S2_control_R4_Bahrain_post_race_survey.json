@@ -1,0 +1,33 @@
+{
+  "raceId": "P1_S2_control_R4_Bahrain",
+  "participantId": "P1",
+  "phase": "Phase-2",
+  "condition": "control",
+  "track": "Bahrain",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-16T16:58:10Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 0,
+    "physicalDemand": 0,
+    "temporalDemand": 0,
+    "performance": 0,
+    "effort": 80,
+    "frustration": 0,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 13.3
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

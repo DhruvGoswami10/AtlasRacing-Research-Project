@@ -1,0 +1,33 @@
+{
+  "raceId": "P9_S9_llm_R12_Silverstone",
+  "participantId": "P9",
+  "phase": "Phase-3",
+  "condition": "llm",
+  "track": "Silverstone",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:04:27Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 75,
+    "physicalDemand": 40,
+    "temporalDemand": 80,
+    "performance": 60,
+    "effort": 95,
+    "frustration": 65,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 69.2
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 7
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 4
+  },
+  "openText": {
+    "comment": ""
+  }
+}

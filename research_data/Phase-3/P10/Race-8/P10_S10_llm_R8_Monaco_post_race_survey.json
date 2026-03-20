@@ -1,0 +1,33 @@
+{
+  "raceId": "P10_S10_llm_R8_Monaco",
+  "participantId": "P10",
+  "phase": "Phase-3",
+  "condition": "llm",
+  "track": "Monaco",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:05:05Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 70,
+    "physicalDemand": 50,
+    "temporalDemand": 60,
+    "performance": 30,
+    "effort": 60,
+    "frustration": 5,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 45.8
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 6
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

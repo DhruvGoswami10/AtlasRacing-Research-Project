@@ -1,0 +1,41 @@
+{
+  "raceId": "P19_S19_control_R14_Hungaroring",
+  "participantId": "P19",
+  "date": "2026-02-19T18:36:00.000Z",
+  "track": "Hungaroring",
+  "trackId": 9,
+  "seasonType": "control",
+  "seasonNumber": 19,
+  "raceNumber": 14,
+  "totalLaps": 18,
+  "difficulty": 80,
+  "startingPosition": 19,
+  "finishPosition": 10,
+  "points": 1,
+  "fastestLap": false,
+  "bestLapMs": 81676,
+  "avgLapMs": 85975,
+  "pitStops": [
+    {
+      "lap": 10,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 20,
+      "positionAfter": 19,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 33,
+  "llmAvgLatencyMs": 3073,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 8,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P19 and finished P10. 1 stop on Lap10 M->H. Control-condition style run with tidy one-stop execution when the window opens and mostly manual timing calls."
+}

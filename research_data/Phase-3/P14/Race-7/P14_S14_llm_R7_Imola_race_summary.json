@@ -1,0 +1,41 @@
+{
+  "raceId": "P14_S14_llm_R7_Imola",
+  "participantId": "P14",
+  "date": "2026-02-15T00:46:00.000Z",
+  "track": "Imola",
+  "trackId": 27,
+  "seasonType": "llm",
+  "seasonNumber": 14,
+  "raceNumber": 7,
+  "totalLaps": 16,
+  "difficulty": 80,
+  "startingPosition": 19,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": true,
+  "bestLapMs": 78775,
+  "avgLapMs": 84049,
+  "pitStops": [
+    {
+      "lap": 11,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 1,
+      "positionAfter": 4,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 42,
+  "llmAvgLatencyMs": 2553,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 15,
+  "llmERSCalls": 7,
+  "llmDriverQuestions": 0,
+  "followedRate": 100,
+  "notes": "Strategy Quality: correct. Started P19 and finished P1. 1 stop on Lap11 M->H. Phase-3 synthetic run based on Phase-2 patterns, with tidy one-stop execution when the window opens. Followed roughly 100% of the explicit advice."
+}

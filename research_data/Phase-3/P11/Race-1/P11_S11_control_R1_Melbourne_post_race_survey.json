@@ -1,0 +1,33 @@
+{
+  "raceId": "P11_S11_control_R1_Melbourne",
+  "participantId": "P11",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Melbourne",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:05:12Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 95,
+    "physicalDemand": 90,
+    "temporalDemand": 80,
+    "performance": 40,
+    "effort": 95,
+    "frustration": 15,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 69.2
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

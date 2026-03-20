@@ -1,0 +1,33 @@
+{
+  "raceId": "P12_S12_llm_R2_Shanghai",
+  "participantId": "P12",
+  "phase": "Phase-3",
+  "condition": "llm",
+  "track": "Shanghai",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:05:37Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 100,
+    "physicalDemand": 100,
+    "temporalDemand": 0,
+    "performance": 10,
+    "effort": 95,
+    "frustration": 0,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 50.8
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 6
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

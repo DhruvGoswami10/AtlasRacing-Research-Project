@@ -1,0 +1,41 @@
+{
+  "raceId": "P9_S9_control_R17_Baku",
+  "participantId": "P9",
+  "date": "2026-02-10T00:15:00.000Z",
+  "track": "Baku",
+  "trackId": 20,
+  "seasonType": "control",
+  "seasonNumber": 9,
+  "raceNumber": 17,
+  "totalLaps": 13,
+  "difficulty": 80,
+  "startingPosition": 14,
+  "finishPosition": 8,
+  "points": 4,
+  "fastestLap": false,
+  "bestLapMs": 105025,
+  "avgLapMs": 114672,
+  "pitStops": [
+    {
+      "lap": 6,
+      "compoundFrom": "Hard",
+      "compoundTo": "Medium",
+      "positionBefore": 2,
+      "positionAfter": 3,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 27,
+  "llmAvgLatencyMs": 2651,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 3,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: mixed. Started P14 and finished P8. 1 stop on Lap6 H->M. Control-condition style run with tidy one-stop execution when the window opens and mostly manual timing calls."
+}

@@ -1,0 +1,41 @@
+{
+  "raceId": "P9_S9_control_R18_Singapore",
+  "participantId": "P9",
+  "date": "2026-02-10T02:39:00.000Z",
+  "track": "Singapore",
+  "trackId": 12,
+  "seasonType": "control",
+  "seasonNumber": 9,
+  "raceNumber": 18,
+  "totalLaps": 16,
+  "difficulty": 80,
+  "startingPosition": 19,
+  "finishPosition": 9,
+  "points": 2,
+  "fastestLap": false,
+  "bestLapMs": 95982,
+  "avgLapMs": 104318,
+  "pitStops": [
+    {
+      "lap": 9,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 3,
+      "positionAfter": 4,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 31,
+  "llmAvgLatencyMs": 3063,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 3,
+  "llmERSCalls": 7,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P19 and finished P9. 1 stop on Lap9 M->H. Control-condition style run with tidy one-stop execution when the window opens and mostly manual timing calls."
+}

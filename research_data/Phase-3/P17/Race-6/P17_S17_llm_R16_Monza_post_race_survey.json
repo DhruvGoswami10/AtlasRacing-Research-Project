@@ -1,0 +1,33 @@
+{
+  "raceId": "P17_S17_llm_R16_Monza",
+  "participantId": "P17",
+  "phase": "Phase-3",
+  "condition": "llm",
+  "track": "Monza",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:07:46Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 0,
+    "physicalDemand": 80,
+    "temporalDemand": 60,
+    "performance": 25,
+    "effort": 80,
+    "frustration": 5,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 41.7
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 7
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

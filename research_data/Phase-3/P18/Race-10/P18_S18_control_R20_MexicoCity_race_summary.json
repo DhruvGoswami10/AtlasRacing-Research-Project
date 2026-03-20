@@ -1,0 +1,41 @@
+{
+  "raceId": "P18_S18_control_R20_MexicoCity",
+  "participantId": "P18",
+  "date": "2026-02-19T06:41:00.000Z",
+  "track": "Mexico City",
+  "trackId": 19,
+  "seasonType": "control",
+  "seasonNumber": 18,
+  "raceNumber": 20,
+  "totalLaps": 18,
+  "difficulty": 80,
+  "startingPosition": 17,
+  "finishPosition": 11,
+  "points": 0,
+  "fastestLap": false,
+  "bestLapMs": 81075,
+  "avgLapMs": 85649,
+  "pitStops": [
+    {
+      "lap": 11,
+      "compoundFrom": "Medium",
+      "compoundTo": "Soft",
+      "positionBefore": 4,
+      "positionAfter": 3,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 33,
+  "llmAvgLatencyMs": 3023,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 8,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: mixed. Started P17 and finished P11. 1 stop on Lap11 M->S. Control-condition style run with confident rotation through medium-speed corners and mostly manual timing calls."
+}

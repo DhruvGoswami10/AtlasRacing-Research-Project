@@ -1,0 +1,33 @@
+{
+  "raceId": "P2_S2_llm_R19_Austin",
+  "participantId": "P2",
+  "phase": "Phase-2",
+  "condition": "llm",
+  "track": "Austin",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:01:52Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 100,
+    "physicalDemand": 60,
+    "temporalDemand": 90,
+    "performance": 0,
+    "effort": 90,
+    "frustration": 0,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 56.7
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 6
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

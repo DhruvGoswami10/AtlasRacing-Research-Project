@@ -1,0 +1,41 @@
+{
+  "raceId": "P16_S16_control_R13_Spa",
+  "participantId": "P16",
+  "date": "2026-02-16T16:20:00.000Z",
+  "track": "Spa",
+  "trackId": 10,
+  "seasonType": "control",
+  "seasonNumber": 16,
+  "raceNumber": 13,
+  "totalLaps": 11,
+  "difficulty": 80,
+  "startingPosition": 17,
+  "finishPosition": 6,
+  "points": 8,
+  "fastestLap": false,
+  "bestLapMs": 108767,
+  "avgLapMs": 113319,
+  "pitStops": [
+    {
+      "lap": 6,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 10,
+      "positionAfter": 8,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 19,
+  "llmAvgLatencyMs": 2608,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 5,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P17 and finished P6. 1 stop on Lap6 S->M. Control-condition style run with late-braking confidence in traffic and mostly manual timing calls."
+}

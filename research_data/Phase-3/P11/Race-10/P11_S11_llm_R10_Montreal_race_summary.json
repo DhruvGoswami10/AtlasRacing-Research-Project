@@ -1,0 +1,41 @@
+{
+  "raceId": "P11_S11_llm_R10_Montreal",
+  "participantId": "P11",
+  "date": "2026-02-12T06:19:00.000Z",
+  "track": "Montreal",
+  "trackId": 6,
+  "seasonType": "llm",
+  "seasonNumber": 11,
+  "raceNumber": 10,
+  "totalLaps": 18,
+  "difficulty": 80,
+  "startingPosition": 20,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": false,
+  "bestLapMs": 73713,
+  "avgLapMs": 78308,
+  "pitStops": [
+    {
+      "lap": 11,
+      "compoundFrom": "Medium",
+      "compoundTo": "Soft",
+      "positionBefore": 4,
+      "positionAfter": 1,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 25,
+  "llmAvgLatencyMs": 3044,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 3,
+  "llmERSCalls": 8,
+  "llmDriverQuestions": 0,
+  "followedRate": 89,
+  "notes": "Strategy Quality: correct. Started P20 and finished P1. 1 stop on Lap11 M->S. Phase-3 synthetic run based on Phase-2 patterns, with late-braking confidence in traffic. Followed roughly 89% of the explicit advice."
+}

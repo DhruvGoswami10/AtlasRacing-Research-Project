@@ -1,0 +1,41 @@
+{
+  "raceId": "P11_S11_control_R1_Melbourne",
+  "participantId": "P11",
+  "date": "2026-02-11T12:32:00.000Z",
+  "track": "Melbourne",
+  "trackId": 0,
+  "seasonType": "control",
+  "seasonNumber": 11,
+  "raceNumber": 1,
+  "totalLaps": 15,
+  "difficulty": 80,
+  "startingPosition": 16,
+  "finishPosition": 2,
+  "points": 18,
+  "fastestLap": true,
+  "bestLapMs": 81294,
+  "avgLapMs": 86042,
+  "pitStops": [
+    {
+      "lap": 9,
+      "compoundFrom": "Medium",
+      "compoundTo": "Soft",
+      "positionBefore": 6,
+      "positionAfter": 3,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 19,
+  "llmAvgLatencyMs": 2760,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 7,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P16 and finished P2. 1 stop on Lap9 M->S. Control-condition style run with late-braking confidence in traffic and mostly manual timing calls."
+}

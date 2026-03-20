@@ -1,0 +1,41 @@
+{
+  "raceId": "P11_S11_llm_R6_Miami",
+  "participantId": "P11",
+  "date": "2026-02-11T22:11:00.000Z",
+  "track": "Miami",
+  "trackId": 30,
+  "seasonType": "llm",
+  "seasonNumber": 11,
+  "raceNumber": 6,
+  "totalLaps": 14,
+  "difficulty": 80,
+  "startingPosition": 20,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": true,
+  "bestLapMs": 90881,
+  "avgLapMs": 96348,
+  "pitStops": [
+    {
+      "lap": 11,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 1,
+      "positionAfter": 2,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 25,
+  "llmAvgLatencyMs": 2342,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 10,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 67,
+  "notes": "Strategy Quality: correct. Started P20 and finished P1. 1 stop on Lap11 M->H. Phase-3 synthetic run based on Phase-2 patterns, with late-braking confidence in traffic. Followed roughly 67% of the explicit advice."
+}

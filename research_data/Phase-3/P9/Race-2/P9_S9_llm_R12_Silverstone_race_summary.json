@@ -1,0 +1,41 @@
+{
+  "raceId": "P9_S9_llm_R12_Silverstone",
+  "participantId": "P9",
+  "date": "2026-02-09T14:41:00.000Z",
+  "track": "Silverstone",
+  "trackId": 7,
+  "seasonType": "llm",
+  "seasonNumber": 9,
+  "raceNumber": 12,
+  "totalLaps": 13,
+  "difficulty": 80,
+  "startingPosition": 17,
+  "finishPosition": 5,
+  "points": 10,
+  "fastestLap": false,
+  "bestLapMs": 90935,
+  "avgLapMs": 96909,
+  "pitStops": [
+    {
+      "lap": 9,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 2,
+      "positionAfter": 2,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 37,
+  "llmAvgLatencyMs": 1998,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 15,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 62,
+  "notes": "Strategy Quality: correct. Started P17 and finished P5. 1 stop on Lap9 S->M. Phase-3 synthetic run based on Phase-2 patterns, with tidy one-stop execution when the window opens. Followed roughly 62% of the explicit advice."
+}

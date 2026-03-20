@@ -1,0 +1,33 @@
+{
+  "raceId": "P5_S5_control_R2_Shanghai",
+  "participantId": "P5",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Shanghai",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:02:49Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 75,
+    "physicalDemand": 100,
+    "temporalDemand": 100,
+    "performance": 0,
+    "effort": 90,
+    "frustration": 50,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 69.2
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

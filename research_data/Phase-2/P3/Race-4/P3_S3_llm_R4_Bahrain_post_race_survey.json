@@ -1,0 +1,33 @@
+{
+  "raceId": "P3_S3_llm_R4_Bahrain",
+  "participantId": "P3",
+  "phase": "Phase-2",
+  "condition": "llm",
+  "track": "Bahrain",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:02:04Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 60,
+    "physicalDemand": 60,
+    "temporalDemand": 0,
+    "performance": 5,
+    "effort": 85,
+    "frustration": 0,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 35
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 7
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

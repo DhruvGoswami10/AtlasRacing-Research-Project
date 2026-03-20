@@ -1,0 +1,33 @@
+{
+  "raceId": "P2_S2_control_R15_Zandvoort",
+  "participantId": "P2",
+  "phase": "Phase-2",
+  "condition": "control",
+  "track": "Zandvoort",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:01:43Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 85,
+    "physicalDemand": 80,
+    "temporalDemand": 90,
+    "performance": 85,
+    "effort": 65,
+    "frustration": 95,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 83.3
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "raceId": "P13_S13_control_R12_Silverstone",
+  "participantId": "P13",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Silverstone",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:06:02Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 75,
+    "physicalDemand": 80,
+    "temporalDemand": 35,
+    "performance": 85,
+    "effort": 75,
+    "frustration": 100,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 75
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

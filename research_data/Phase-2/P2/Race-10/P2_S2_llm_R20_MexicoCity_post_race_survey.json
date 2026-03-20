@@ -1,0 +1,33 @@
+{
+  "raceId": "P2_S2_llm_R20_MexicoCity",
+  "participantId": "P2",
+  "phase": "Phase-2",
+  "condition": "llm",
+  "track": "Mexico City",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:01:55Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 25,
+    "physicalDemand": 70,
+    "temporalDemand": 70,
+    "performance": 0,
+    "effort": 100,
+    "frustration": 0,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 44.2
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 7
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

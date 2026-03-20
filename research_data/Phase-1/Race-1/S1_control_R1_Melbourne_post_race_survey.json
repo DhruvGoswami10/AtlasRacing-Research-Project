@@ -1,0 +1,33 @@
+{
+  "raceId": "S1_control_R1_Melbourne",
+  "participantId": "S1",
+  "phase": "Phase-1",
+  "condition": "control",
+  "track": "Melbourne",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-14T18:25:13Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 100,
+    "physicalDemand": 90,
+    "temporalDemand": 100,
+    "performance": 0,
+    "effort": 100,
+    "frustration": 65,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 75.8
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "raceId": "P14_S14_control_R5_Jeddah",
+  "participantId": "P14",
+  "date": "2026-02-14T20:24:00.000Z",
+  "track": "Jeddah",
+  "trackId": 29,
+  "seasonType": "control",
+  "seasonNumber": 14,
+  "raceNumber": 5,
+  "totalLaps": 13,
+  "difficulty": 80,
+  "startingPosition": 19,
+  "finishPosition": 2,
+  "points": 18,
+  "fastestLap": false,
+  "bestLapMs": 93468,
+  "avgLapMs": 98771,
+  "pitStops": [
+    {
+      "lap": 10,
+      "compoundFrom": "Medium",
+      "compoundTo": "Soft",
+      "positionBefore": 3,
+      "positionAfter": 3,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 17,
+  "llmAvgLatencyMs": 2679,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P19 and finished P2. 1 stop on Lap10 M->S. Control-condition style run with tidy one-stop execution when the window opens and mostly manual timing calls."
+}

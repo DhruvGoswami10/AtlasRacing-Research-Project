@@ -1,0 +1,41 @@
+{
+  "raceId": "P6_S6_llm_R1_Melbourne",
+  "participantId": "P6",
+  "date": "2026-02-06T12:39:00.000Z",
+  "track": "Melbourne",
+  "trackId": 0,
+  "seasonType": "llm",
+  "seasonNumber": 6,
+  "raceNumber": 1,
+  "totalLaps": 15,
+  "difficulty": 80,
+  "startingPosition": 18,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": true,
+  "bestLapMs": 81360,
+  "avgLapMs": 86242,
+  "pitStops": [
+    {
+      "lap": 9,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 1,
+      "positionAfter": 1,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 22,
+  "llmAvgLatencyMs": 2393,
+  "llmStrategyCommits": 0,
+  "llmStrategyAmends": 7,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 1,
+  "followedRate": 75,
+  "notes": "Strategy Quality: correct. Started P18 and finished P1. 1 stop on Lap9 M->H. Phase-3 synthetic run based on Phase-2 patterns, with late-braking confidence in traffic. Followed roughly 75% of the explicit advice."
+}

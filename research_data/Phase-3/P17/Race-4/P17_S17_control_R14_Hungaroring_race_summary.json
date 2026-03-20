@@ -1,0 +1,41 @@
+{
+  "raceId": "P17_S17_control_R14_Hungaroring",
+  "participantId": "P17",
+  "date": "2026-02-17T18:15:00.000Z",
+  "track": "Hungaroring",
+  "trackId": 9,
+  "seasonType": "control",
+  "seasonNumber": 17,
+  "raceNumber": 14,
+  "totalLaps": 18,
+  "difficulty": 80,
+  "startingPosition": 17,
+  "finishPosition": 7,
+  "points": 6,
+  "fastestLap": false,
+  "bestLapMs": 81545,
+  "avgLapMs": 85820,
+  "pitStops": [
+    {
+      "lap": 10,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 15,
+      "positionAfter": 17,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 33,
+  "llmAvgLatencyMs": 3336,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 8,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P17 and finished P7. 1 stop on Lap10 M->H. Control-condition style run with strong battery discipline on straights and mostly manual timing calls."
+}

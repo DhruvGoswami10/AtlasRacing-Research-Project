@@ -1,0 +1,33 @@
+{
+  "raceId": "P13_S13_llm_R17_Baku",
+  "participantId": "P13",
+  "phase": "Phase-3",
+  "condition": "llm",
+  "track": "Baku",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:06:14Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 75,
+    "physicalDemand": 80,
+    "temporalDemand": 0,
+    "performance": 0,
+    "effort": 100,
+    "frustration": 5,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 43.3
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 6
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

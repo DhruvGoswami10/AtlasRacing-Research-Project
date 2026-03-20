@@ -1,0 +1,41 @@
+{
+  "raceId": "P14_S14_llm_R8_Monaco",
+  "participantId": "P14",
+  "date": "2026-02-15T02:45:00.000Z",
+  "track": "Monaco",
+  "trackId": 5,
+  "seasonType": "llm",
+  "seasonNumber": 14,
+  "raceNumber": 8,
+  "totalLaps": 20,
+  "difficulty": 80,
+  "startingPosition": 16,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": true,
+  "bestLapMs": 74409,
+  "avgLapMs": 79760,
+  "pitStops": [
+    {
+      "lap": 7,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 10,
+      "positionAfter": 6,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 28,
+  "llmAvgLatencyMs": 2447,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 7,
+  "llmERSCalls": 9,
+  "llmDriverQuestions": 0,
+  "followedRate": 88,
+  "notes": "Strategy Quality: correct. Started P16 and finished P1. 1 stop on Lap7 S->M. Phase-3 synthetic run based on Phase-2 patterns, with tidy one-stop execution when the window opens. Followed roughly 88% of the explicit advice."
+}

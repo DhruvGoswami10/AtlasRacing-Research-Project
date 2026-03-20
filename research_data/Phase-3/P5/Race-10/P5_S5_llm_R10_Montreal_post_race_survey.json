@@ -1,0 +1,33 @@
+{
+  "raceId": "P5_S5_llm_R10_Montreal",
+  "participantId": "P5",
+  "phase": "Phase-3",
+  "condition": "llm",
+  "track": "Montreal",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:03:14Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 70,
+    "physicalDemand": 80,
+    "temporalDemand": 80,
+    "performance": 30,
+    "effort": 95,
+    "frustration": 80,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 72.5
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 7
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

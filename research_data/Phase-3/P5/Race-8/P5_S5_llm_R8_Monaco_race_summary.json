@@ -1,0 +1,41 @@
+{
+  "raceId": "P5_S5_llm_R8_Monaco",
+  "participantId": "P5",
+  "date": "2026-02-06T02:45:00.000Z",
+  "track": "Monaco",
+  "trackId": 5,
+  "seasonType": "llm",
+  "seasonNumber": 5,
+  "raceNumber": 8,
+  "totalLaps": 20,
+  "difficulty": 80,
+  "startingPosition": 16,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": true,
+  "bestLapMs": 74422,
+  "avgLapMs": 79798,
+  "pitStops": [
+    {
+      "lap": 7,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 9,
+      "positionAfter": 5,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 28,
+  "llmAvgLatencyMs": 2347,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 7,
+  "llmERSCalls": 9,
+  "llmDriverQuestions": 0,
+  "followedRate": 86,
+  "notes": "Strategy Quality: correct. Started P16 and finished P1. 1 stop on Lap7 S->M. Phase-3 synthetic run based on Phase-2 patterns, with clean exits and measured tire saving. Followed roughly 86% of the explicit advice."
+}

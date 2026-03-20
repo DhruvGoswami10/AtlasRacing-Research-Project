@@ -1,0 +1,33 @@
+{
+  "raceId": "P9_S9_control_R17_Baku",
+  "participantId": "P9",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Baku",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:04:39Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 55,
+    "physicalDemand": 60,
+    "temporalDemand": 100,
+    "performance": 40,
+    "effort": 95,
+    "frustration": 80,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 71.7
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

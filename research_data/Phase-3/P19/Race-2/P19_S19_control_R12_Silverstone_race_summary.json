@@ -1,0 +1,41 @@
+{
+  "raceId": "P19_S19_control_R12_Silverstone",
+  "participantId": "P19",
+  "date": "2026-02-19T14:42:00.000Z",
+  "track": "Silverstone",
+  "trackId": 7,
+  "seasonType": "control",
+  "seasonNumber": 19,
+  "raceNumber": 12,
+  "totalLaps": 13,
+  "difficulty": 80,
+  "startingPosition": 15,
+  "finishPosition": 15,
+  "points": 0,
+  "fastestLap": false,
+  "bestLapMs": 92279,
+  "avgLapMs": 99153,
+  "pitStops": [
+    {
+      "lap": 7,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 15,
+      "positionAfter": 18,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 28,
+  "llmAvgLatencyMs": 2587,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 3,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: wrong. Started P15 and finished P15. 1 stop on Lap7 S->M. Control-condition style run with tidy one-stop execution when the window opens and mostly manual timing calls."
+}

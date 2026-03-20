@@ -1,0 +1,41 @@
+{
+  "raceId": "P5_S5_control_R1_Melbourne",
+  "participantId": "P5",
+  "date": "2026-02-05T12:08:00.000Z",
+  "track": "Melbourne",
+  "trackId": 0,
+  "seasonType": "control",
+  "seasonNumber": 5,
+  "raceNumber": 1,
+  "totalLaps": 15,
+  "difficulty": 80,
+  "startingPosition": 17,
+  "finishPosition": 2,
+  "points": 18,
+  "fastestLap": false,
+  "bestLapMs": 81520,
+  "avgLapMs": 85932,
+  "pitStops": [
+    {
+      "lap": 9,
+      "compoundFrom": "Medium",
+      "compoundTo": "Soft",
+      "positionBefore": 5,
+      "positionAfter": 2,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 19,
+  "llmAvgLatencyMs": 2743,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 7,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P17 and finished P2. 1 stop on Lap9 M->S. Control-condition style run with clean exits and measured tire saving and mostly manual timing calls."
+}

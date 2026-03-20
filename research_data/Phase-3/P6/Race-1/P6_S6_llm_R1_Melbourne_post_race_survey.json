@@ -1,0 +1,33 @@
+{
+  "raceId": "P6_S6_llm_R1_Melbourne",
+  "participantId": "P6",
+  "phase": "Phase-3",
+  "condition": "llm",
+  "track": "Melbourne",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:03:16Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 75,
+    "physicalDemand": 0,
+    "temporalDemand": 100,
+    "performance": 0,
+    "effort": 80,
+    "frustration": 65,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 53.3
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 5
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

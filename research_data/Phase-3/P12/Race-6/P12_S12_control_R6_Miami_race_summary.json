@@ -1,0 +1,41 @@
+{
+  "raceId": "P12_S12_control_R6_Miami",
+  "participantId": "P12",
+  "date": "2026-02-12T22:04:00.000Z",
+  "track": "Miami",
+  "trackId": 30,
+  "seasonType": "control",
+  "seasonNumber": 12,
+  "raceNumber": 6,
+  "totalLaps": 14,
+  "difficulty": 80,
+  "startingPosition": 18,
+  "finishPosition": 4,
+  "points": 12,
+  "fastestLap": true,
+  "bestLapMs": 92124,
+  "avgLapMs": 96509,
+  "pitStops": [
+    {
+      "lap": 7,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 5,
+      "positionAfter": 7,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 25,
+  "llmAvgLatencyMs": 2416,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P18 and finished P4. 1 stop on Lap7 M->H. Control-condition style run with strong battery discipline on straights and mostly manual timing calls."
+}

@@ -1,0 +1,41 @@
+{
+  "raceId": "P14_S14_control_R1_Melbourne",
+  "participantId": "P14",
+  "date": "2026-02-14T12:40:00.000Z",
+  "track": "Melbourne",
+  "trackId": 0,
+  "seasonType": "control",
+  "seasonNumber": 14,
+  "raceNumber": 1,
+  "totalLaps": 15,
+  "difficulty": 80,
+  "startingPosition": 17,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": false,
+  "bestLapMs": 81395,
+  "avgLapMs": 86053,
+  "pitStops": [
+    {
+      "lap": 9,
+      "compoundFrom": "Medium",
+      "compoundTo": "Soft",
+      "positionBefore": 4,
+      "positionAfter": 1,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 19,
+  "llmAvgLatencyMs": 2804,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 7,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P17 and finished P1. 1 stop on Lap9 M->S. Control-condition style run with tidy one-stop execution when the window opens and mostly manual timing calls."
+}

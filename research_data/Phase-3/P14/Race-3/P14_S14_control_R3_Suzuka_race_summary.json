@@ -1,0 +1,41 @@
+{
+  "raceId": "P14_S14_control_R3_Suzuka",
+  "participantId": "P14",
+  "date": "2026-02-14T16:15:00.000Z",
+  "track": "Suzuka",
+  "trackId": 13,
+  "seasonType": "control",
+  "seasonNumber": 14,
+  "raceNumber": 3,
+  "totalLaps": 13,
+  "difficulty": 80,
+  "startingPosition": 16,
+  "finishPosition": 3,
+  "points": 15,
+  "fastestLap": false,
+  "bestLapMs": 91244,
+  "avgLapMs": 95882,
+  "pitStops": [
+    {
+      "lap": 10,
+      "compoundFrom": "Medium",
+      "compoundTo": "Soft",
+      "positionBefore": 2,
+      "positionAfter": 3,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 21,
+  "llmAvgLatencyMs": 2944,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P16 and finished P3. 1 stop on Lap10 M->S. Control-condition style run with tidy one-stop execution when the window opens and mostly manual timing calls."
+}

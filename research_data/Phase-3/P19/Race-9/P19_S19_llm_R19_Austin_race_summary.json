@@ -1,0 +1,41 @@
+{
+  "raceId": "P19_S19_llm_R19_Austin",
+  "participantId": "P19",
+  "date": "2026-02-20T04:45:00.000Z",
+  "track": "Austin",
+  "trackId": 15,
+  "seasonType": "llm",
+  "seasonNumber": 19,
+  "raceNumber": 19,
+  "totalLaps": 14,
+  "difficulty": 80,
+  "startingPosition": 20,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": true,
+  "bestLapMs": 97575,
+  "avgLapMs": 100475,
+  "pitStops": [
+    {
+      "lap": 10,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 1,
+      "positionAfter": 1,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 16,
+  "llmAvgLatencyMs": 3317,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 2,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 60,
+  "notes": "Strategy Quality: correct. Started P20 and finished P1. 1 stop on Lap10 S->M. Phase-3 synthetic run based on Phase-2 patterns, with tidy one-stop execution when the window opens. Followed roughly 60% of the explicit advice."
+}

@@ -1,0 +1,41 @@
+{
+  "raceId": "P6_S6_llm_R3_Suzuka",
+  "participantId": "P6",
+  "date": "2026-02-06T16:42:00.000Z",
+  "track": "Suzuka",
+  "trackId": 13,
+  "seasonType": "llm",
+  "seasonNumber": 6,
+  "raceNumber": 3,
+  "totalLaps": 13,
+  "difficulty": 80,
+  "startingPosition": 20,
+  "finishPosition": 2,
+  "points": 18,
+  "fastestLap": true,
+  "bestLapMs": 92272,
+  "avgLapMs": 98166,
+  "pitStops": [
+    {
+      "lap": 9,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 1,
+      "positionAfter": 1,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 35,
+  "llmAvgLatencyMs": 2525,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 14,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 58,
+  "notes": "Strategy Quality: correct. Started P20 and finished P2. 1 stop on Lap9 S->M. Phase-3 synthetic run based on Phase-2 patterns, with late-braking confidence in traffic. Followed roughly 58% of the explicit advice."
+}

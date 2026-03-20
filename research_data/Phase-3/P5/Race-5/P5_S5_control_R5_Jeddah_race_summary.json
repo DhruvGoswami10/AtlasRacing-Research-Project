@@ -1,0 +1,41 @@
+{
+  "raceId": "P5_S5_control_R5_Jeddah",
+  "participantId": "P5",
+  "date": "2026-02-05T20:18:00.000Z",
+  "track": "Jeddah",
+  "trackId": 29,
+  "seasonType": "control",
+  "seasonNumber": 5,
+  "raceNumber": 5,
+  "totalLaps": 13,
+  "difficulty": 80,
+  "startingPosition": 18,
+  "finishPosition": 4,
+  "points": 12,
+  "fastestLap": false,
+  "bestLapMs": 93699,
+  "avgLapMs": 98852,
+  "pitStops": [
+    {
+      "lap": 10,
+      "compoundFrom": "Medium",
+      "compoundTo": "Soft",
+      "positionBefore": 5,
+      "positionAfter": 3,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 17,
+  "llmAvgLatencyMs": 2557,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P18 and finished P4. 1 stop on Lap10 M->S. Control-condition style run with clean exits and measured tire saving and mostly manual timing calls."
+}

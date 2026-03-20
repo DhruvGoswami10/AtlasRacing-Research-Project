@@ -1,0 +1,33 @@
+{
+  "raceId": "P11_S11_llm_R6_Miami",
+  "participantId": "P11",
+  "phase": "Phase-3",
+  "condition": "llm",
+  "track": "Miami",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:05:24Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 70,
+    "physicalDemand": 80,
+    "temporalDemand": 70,
+    "performance": 10,
+    "effort": 90,
+    "frustration": 0,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 53.3
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 6
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

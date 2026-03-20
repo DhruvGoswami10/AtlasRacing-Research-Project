@@ -1,0 +1,33 @@
+{
+  "raceId": "P14_S14_control_R3_Suzuka",
+  "participantId": "P14",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Suzuka",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:06:29Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 20,
+    "physicalDemand": 90,
+    "temporalDemand": 80,
+    "performance": 40,
+    "effort": 85,
+    "frustration": 15,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 55
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

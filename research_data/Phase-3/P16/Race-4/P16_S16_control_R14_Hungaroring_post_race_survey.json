@@ -1,0 +1,33 @@
+{
+  "raceId": "P16_S16_control_R14_Hungaroring",
+  "participantId": "P16",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Hungaroring",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:07:18Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 60,
+    "physicalDemand": 90,
+    "temporalDemand": 35,
+    "performance": 70,
+    "effort": 75,
+    "frustration": 50,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 63.3
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

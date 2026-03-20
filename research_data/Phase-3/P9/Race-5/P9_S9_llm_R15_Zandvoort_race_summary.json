@@ -1,0 +1,41 @@
+{
+  "raceId": "P9_S9_llm_R15_Zandvoort",
+  "participantId": "P9",
+  "date": "2026-02-09T20:43:00.000Z",
+  "track": "Zandvoort",
+  "trackId": 26,
+  "seasonType": "llm",
+  "seasonNumber": 9,
+  "raceNumber": 15,
+  "totalLaps": 18,
+  "difficulty": 80,
+  "startingPosition": 18,
+  "finishPosition": 3,
+  "points": 15,
+  "fastestLap": true,
+  "bestLapMs": 73297,
+  "avgLapMs": 77819,
+  "pitStops": [
+    {
+      "lap": 11,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 3,
+      "positionAfter": 3,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 32,
+  "llmAvgLatencyMs": 2824,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 7,
+  "llmERSCalls": 8,
+  "llmDriverQuestions": 0,
+  "followedRate": 78,
+  "notes": "Strategy Quality: correct. Started P18 and finished P3. 1 stop on Lap11 S->M. Phase-3 synthetic run based on Phase-2 patterns, with tidy one-stop execution when the window opens. Followed roughly 78% of the explicit advice."
+}

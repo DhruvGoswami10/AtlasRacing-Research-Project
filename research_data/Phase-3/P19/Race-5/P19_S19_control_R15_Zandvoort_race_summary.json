@@ -1,0 +1,41 @@
+{
+  "raceId": "P19_S19_control_R15_Zandvoort",
+  "participantId": "P19",
+  "date": "2026-02-19T20:05:00.000Z",
+  "track": "Zandvoort",
+  "trackId": 26,
+  "seasonType": "control",
+  "seasonNumber": 19,
+  "raceNumber": 15,
+  "totalLaps": 18,
+  "difficulty": 80,
+  "startingPosition": 19,
+  "finishPosition": 11,
+  "points": 0,
+  "fastestLap": false,
+  "bestLapMs": 75057,
+  "avgLapMs": 79063,
+  "pitStops": [
+    {
+      "lap": 10,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 10,
+      "positionAfter": 11,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 27,
+  "llmAvgLatencyMs": 2963,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 2,
+  "llmERSCalls": 8,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: mixed. Started P19 and finished P11. 1 stop on Lap10 S->M. Control-condition style run with tidy one-stop execution when the window opens and mostly manual timing calls."
+}

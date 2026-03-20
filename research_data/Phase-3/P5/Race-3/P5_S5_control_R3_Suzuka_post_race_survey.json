@@ -1,0 +1,33 @@
+{
+  "raceId": "P5_S5_control_R3_Suzuka",
+  "participantId": "P5",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Suzuka",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:02:52Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 85,
+    "physicalDemand": 60,
+    "temporalDemand": 50,
+    "performance": 40,
+    "effort": 90,
+    "frustration": 80,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 67.5
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

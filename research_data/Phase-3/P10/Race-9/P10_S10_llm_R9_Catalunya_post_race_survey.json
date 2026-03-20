@@ -1,0 +1,33 @@
+{
+  "raceId": "P10_S10_llm_R9_Catalunya",
+  "participantId": "P10",
+  "phase": "Phase-3",
+  "condition": "llm",
+  "track": "Catalunya",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:05:07Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 75,
+    "physicalDemand": 40,
+    "temporalDemand": 60,
+    "performance": 85,
+    "effort": 95,
+    "frustration": 30,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 64.2
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 6
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

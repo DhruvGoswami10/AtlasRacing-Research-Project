@@ -1,0 +1,33 @@
+{
+  "raceId": "S1_control_R5_Silverstone",
+  "participantId": "S1",
+  "phase": "Phase-1",
+  "condition": "control",
+  "track": "Silverstone",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-14T19:04:22Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 60,
+    "physicalDemand": 75,
+    "temporalDemand": 35,
+    "performance": 75,
+    "effort": 90,
+    "frustration": 65,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 66.7
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

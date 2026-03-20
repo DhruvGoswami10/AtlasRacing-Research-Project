@@ -1,0 +1,41 @@
+{
+  "raceId": "P8_S8_llm_R2_Shanghai",
+  "participantId": "P8",
+  "date": "2026-02-08T14:43:00.000Z",
+  "track": "Shanghai",
+  "trackId": 2,
+  "seasonType": "llm",
+  "seasonNumber": 8,
+  "raceNumber": 2,
+  "totalLaps": 14,
+  "difficulty": 80,
+  "startingPosition": 16,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": false,
+  "bestLapMs": 98231,
+  "avgLapMs": 102782,
+  "pitStops": [
+    {
+      "lap": 9,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 1,
+      "positionAfter": 1,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 18,
+  "llmAvgLatencyMs": 1825,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 7,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 3,
+  "followedRate": 100,
+  "notes": "Strategy Quality: correct. Started P16 and finished P1. 1 stop on Lap9 M->H. Phase-3 synthetic run based on Phase-2 patterns, with confident rotation through medium-speed corners. Followed roughly 100% of the explicit advice."
+}

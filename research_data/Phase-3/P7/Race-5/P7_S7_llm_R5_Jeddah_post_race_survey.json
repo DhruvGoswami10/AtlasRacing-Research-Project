@@ -1,0 +1,33 @@
+{
+  "raceId": "P7_S7_llm_R5_Jeddah",
+  "participantId": "P7",
+  "phase": "Phase-3",
+  "condition": "llm",
+  "track": "Jeddah",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:03:48Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 90,
+    "physicalDemand": 80,
+    "temporalDemand": 60,
+    "performance": 20,
+    "effort": 90,
+    "frustration": 5,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 57.5
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 7
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 5
+  },
+  "openText": {
+    "comment": ""
+  }
+}

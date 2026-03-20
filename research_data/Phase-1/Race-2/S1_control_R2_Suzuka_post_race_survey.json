@@ -1,0 +1,33 @@
+{
+  "raceId": "S1_control_R2_Suzuka",
+  "participantId": "S1",
+  "phase": "Phase-1",
+  "condition": "control",
+  "track": "Suzuka",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-14T19:01:39Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 100,
+    "physicalDemand": 100,
+    "temporalDemand": 100,
+    "performance": 100,
+    "effort": 100,
+    "frustration": 100,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 100
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

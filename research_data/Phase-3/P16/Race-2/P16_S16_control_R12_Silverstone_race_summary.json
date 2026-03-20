@@ -1,0 +1,41 @@
+{
+  "raceId": "P16_S16_control_R12_Silverstone",
+  "participantId": "P16",
+  "date": "2026-02-16T14:04:00.000Z",
+  "track": "Silverstone",
+  "trackId": 7,
+  "seasonType": "control",
+  "seasonNumber": 16,
+  "raceNumber": 12,
+  "totalLaps": 13,
+  "difficulty": 80,
+  "startingPosition": 17,
+  "finishPosition": 14,
+  "points": 0,
+  "fastestLap": false,
+  "bestLapMs": 92449,
+  "avgLapMs": 99517,
+  "pitStops": [
+    {
+      "lap": 7,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 14,
+      "positionAfter": 15,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 28,
+  "llmAvgLatencyMs": 2452,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 3,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: wrong. Started P17 and finished P14. 1 stop on Lap7 S->M. Control-condition style run with late-braking confidence in traffic and mostly manual timing calls."
+}

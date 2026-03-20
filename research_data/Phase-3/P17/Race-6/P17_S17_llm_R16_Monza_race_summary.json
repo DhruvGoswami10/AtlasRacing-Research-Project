@@ -1,0 +1,41 @@
+{
+  "raceId": "P17_S17_llm_R16_Monza",
+  "participantId": "P17",
+  "date": "2026-02-17T22:37:00.000Z",
+  "track": "Monza",
+  "trackId": 11,
+  "seasonType": "llm",
+  "seasonNumber": 17,
+  "raceNumber": 16,
+  "totalLaps": 13,
+  "difficulty": 80,
+  "startingPosition": 15,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": false,
+  "bestLapMs": 83008,
+  "avgLapMs": 91922,
+  "pitStops": [
+    {
+      "lap": 5,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 9,
+      "positionAfter": 1,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 31,
+  "llmAvgLatencyMs": 3284,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 14,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 67,
+  "notes": "Strategy Quality: correct. Started P15 and finished P1. 1 stop on Lap5 M->H. Phase-3 synthetic run based on Phase-2 patterns, with strong battery discipline on straights. Followed roughly 67% of the explicit advice."
+}

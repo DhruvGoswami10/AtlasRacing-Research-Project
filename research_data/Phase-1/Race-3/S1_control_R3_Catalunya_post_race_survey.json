@@ -1,0 +1,33 @@
+{
+  "raceId": "S1_control_R3_Catalunya",
+  "participantId": "S1",
+  "phase": "Phase-1",
+  "condition": "control",
+  "track": "Catalunya",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-14T19:02:42Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 40,
+    "physicalDemand": 25,
+    "temporalDemand": 70,
+    "performance": 75,
+    "effort": 100,
+    "frustration": 85,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 65.8
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

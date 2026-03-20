@@ -1,0 +1,33 @@
+{
+  "raceId": "P19_S19_control_R15_Zandvoort",
+  "participantId": "P19",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Zandvoort",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:08:30Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 55,
+    "physicalDemand": 50,
+    "temporalDemand": 70,
+    "performance": 60,
+    "effort": 100,
+    "frustration": 85,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 70
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

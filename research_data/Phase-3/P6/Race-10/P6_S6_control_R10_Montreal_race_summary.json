@@ -1,0 +1,41 @@
+{
+  "raceId": "P6_S6_control_R10_Montreal",
+  "participantId": "P6",
+  "date": "2026-02-07T06:45:00.000Z",
+  "track": "Montreal",
+  "trackId": 6,
+  "seasonType": "control",
+  "seasonNumber": 6,
+  "raceNumber": 10,
+  "totalLaps": 18,
+  "difficulty": 80,
+  "startingPosition": 20,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": false,
+  "bestLapMs": 73938,
+  "avgLapMs": 87540,
+  "pitStops": [
+    {
+      "lap": 10,
+      "compoundFrom": "Hard",
+      "compoundTo": "Soft",
+      "positionBefore": 3,
+      "positionAfter": 3,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 25,
+  "llmAvgLatencyMs": 3250,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 5,
+  "llmERSCalls": 8,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P20 and finished P1. 1 stop on Lap10 H->S. Control-condition style run with late-braking confidence in traffic and mostly manual timing calls."
+}

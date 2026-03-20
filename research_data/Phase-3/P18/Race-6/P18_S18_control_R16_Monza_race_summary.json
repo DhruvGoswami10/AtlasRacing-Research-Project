@@ -1,0 +1,41 @@
+{
+  "raceId": "P18_S18_control_R16_Monza",
+  "participantId": "P18",
+  "date": "2026-02-18T22:08:00.000Z",
+  "track": "Monza",
+  "trackId": 11,
+  "seasonType": "control",
+  "seasonNumber": 18,
+  "raceNumber": 16,
+  "totalLaps": 13,
+  "difficulty": 80,
+  "startingPosition": 16,
+  "finishPosition": 6,
+  "points": 8,
+  "fastestLap": false,
+  "bestLapMs": 84070,
+  "avgLapMs": 90264,
+  "pitStops": [
+    {
+      "lap": 6,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 3,
+      "positionAfter": 6,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 28,
+  "llmAvgLatencyMs": 2316,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 2,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P16 and finished P6. 1 stop on Lap6 M->H. Control-condition style run with confident rotation through medium-speed corners and mostly manual timing calls."
+}

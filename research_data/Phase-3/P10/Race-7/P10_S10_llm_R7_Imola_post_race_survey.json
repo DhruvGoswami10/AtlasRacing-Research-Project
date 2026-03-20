@@ -1,0 +1,33 @@
+{
+  "raceId": "P10_S10_llm_R7_Imola",
+  "participantId": "P10",
+  "phase": "Phase-3",
+  "condition": "llm",
+  "track": "Imola",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:05:02Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 0,
+    "physicalDemand": 40,
+    "temporalDemand": 80,
+    "performance": 0,
+    "effort": 100,
+    "frustration": 30,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 41.7
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 7
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 5
+  },
+  "openText": {
+    "comment": ""
+  }
+}

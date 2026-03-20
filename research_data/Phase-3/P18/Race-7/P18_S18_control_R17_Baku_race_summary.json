@@ -1,0 +1,41 @@
+{
+  "raceId": "P18_S18_control_R17_Baku",
+  "participantId": "P18",
+  "date": "2026-02-19T00:31:00.000Z",
+  "track": "Baku",
+  "trackId": 20,
+  "seasonType": "control",
+  "seasonNumber": 18,
+  "raceNumber": 17,
+  "totalLaps": 13,
+  "difficulty": 80,
+  "startingPosition": 16,
+  "finishPosition": 7,
+  "points": 6,
+  "fastestLap": false,
+  "bestLapMs": 104569,
+  "avgLapMs": 115872,
+  "pitStops": [
+    {
+      "lap": 6,
+      "compoundFrom": "Hard",
+      "compoundTo": "Medium",
+      "positionBefore": 1,
+      "positionAfter": 3,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 27,
+  "llmAvgLatencyMs": 2581,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 3,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P16 and finished P7. 1 stop on Lap6 H->M. Control-condition style run with confident rotation through medium-speed corners and mostly manual timing calls."
+}

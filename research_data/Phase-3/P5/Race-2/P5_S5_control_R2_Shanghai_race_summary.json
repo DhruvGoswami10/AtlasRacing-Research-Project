@@ -1,0 +1,41 @@
+{
+  "raceId": "P5_S5_control_R2_Shanghai",
+  "participantId": "P5",
+  "date": "2026-02-05T14:31:00.000Z",
+  "track": "Shanghai",
+  "trackId": 2,
+  "seasonType": "control",
+  "seasonNumber": 5,
+  "raceNumber": 2,
+  "totalLaps": 14,
+  "difficulty": 80,
+  "startingPosition": 16,
+  "finishPosition": 2,
+  "points": 18,
+  "fastestLap": true,
+  "bestLapMs": 96763,
+  "avgLapMs": 101065,
+  "pitStops": [
+    {
+      "lap": 13,
+      "compoundFrom": "Medium",
+      "compoundTo": "Soft",
+      "positionBefore": 2,
+      "positionAfter": 2,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 12,
+  "llmAvgLatencyMs": 2422,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P16 and finished P2. 1 stop on Lap13 M->S. Control-condition style run with clean exits and measured tire saving and mostly manual timing calls."
+}

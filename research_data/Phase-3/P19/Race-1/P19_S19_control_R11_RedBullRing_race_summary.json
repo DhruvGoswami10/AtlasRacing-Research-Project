@@ -1,0 +1,41 @@
+{
+  "raceId": "P19_S19_control_R11_RedBullRing",
+  "participantId": "P19",
+  "date": "2026-02-19T12:34:00.000Z",
+  "track": "Red Bull Ring",
+  "trackId": 17,
+  "seasonType": "control",
+  "seasonNumber": 19,
+  "raceNumber": 11,
+  "totalLaps": 18,
+  "difficulty": 80,
+  "startingPosition": 18,
+  "finishPosition": 8,
+  "points": 4,
+  "fastestLap": false,
+  "bestLapMs": 69346,
+  "avgLapMs": 73475,
+  "pitStops": [
+    {
+      "lap": 9,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 9,
+      "positionAfter": 17,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 26,
+  "llmAvgLatencyMs": 2625,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 8,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P18 and finished P8. 1 stop on Lap9 M->H. Control-condition style run with tidy one-stop execution when the window opens and mostly manual timing calls."
+}

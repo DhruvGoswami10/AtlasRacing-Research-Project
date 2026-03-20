@@ -1,0 +1,41 @@
+{
+  "raceId": "P14_S14_llm_R9_Catalunya",
+  "participantId": "P14",
+  "date": "2026-02-15T04:18:00.000Z",
+  "track": "Catalunya",
+  "trackId": 4,
+  "seasonType": "llm",
+  "seasonNumber": 14,
+  "raceNumber": 9,
+  "totalLaps": 17,
+  "difficulty": 80,
+  "startingPosition": 19,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": false,
+  "bestLapMs": 77076,
+  "avgLapMs": 80950,
+  "pitStops": [
+    {
+      "lap": 10,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 3,
+      "positionAfter": 7,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 27,
+  "llmAvgLatencyMs": 2704,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 5,
+  "llmERSCalls": 8,
+  "llmDriverQuestions": 0,
+  "followedRate": 88,
+  "notes": "Strategy Quality: correct. Started P19 and finished P1. 1 stop on Lap10 S->M. Phase-3 synthetic run based on Phase-2 patterns, with tidy one-stop execution when the window opens. Followed roughly 88% of the explicit advice."
+}

@@ -1,0 +1,41 @@
+{
+  "raceId": "P11_S11_llm_R7_Imola",
+  "participantId": "P11",
+  "date": "2026-02-12T00:30:00.000Z",
+  "track": "Imola",
+  "trackId": 27,
+  "seasonType": "llm",
+  "seasonNumber": 11,
+  "raceNumber": 7,
+  "totalLaps": 16,
+  "difficulty": 80,
+  "startingPosition": 19,
+  "finishPosition": 2,
+  "points": 18,
+  "fastestLap": false,
+  "bestLapMs": 78965,
+  "avgLapMs": 84338,
+  "pitStops": [
+    {
+      "lap": 11,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 1,
+      "positionAfter": 5,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 42,
+  "llmAvgLatencyMs": 2424,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 15,
+  "llmERSCalls": 7,
+  "llmDriverQuestions": 0,
+  "followedRate": 80,
+  "notes": "Strategy Quality: correct. Started P19 and finished P2. 1 stop on Lap11 M->H. Phase-3 synthetic run based on Phase-2 patterns, with late-braking confidence in traffic. Followed roughly 80% of the explicit advice."
+}

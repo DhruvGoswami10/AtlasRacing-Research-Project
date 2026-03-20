@@ -1,0 +1,33 @@
+{
+  "raceId": "P8_S8_control_R10_Montreal",
+  "participantId": "P8",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Montreal",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:04:23Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 70,
+    "physicalDemand": 70,
+    "temporalDemand": 90,
+    "performance": 0,
+    "effort": 80,
+    "frustration": 10,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 53.3
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

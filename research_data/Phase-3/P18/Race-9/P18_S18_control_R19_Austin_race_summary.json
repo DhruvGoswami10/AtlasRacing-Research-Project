@@ -1,0 +1,41 @@
+{
+  "raceId": "P18_S18_control_R19_Austin",
+  "participantId": "P18",
+  "date": "2026-02-19T04:32:00.000Z",
+  "track": "Austin",
+  "trackId": 15,
+  "seasonType": "control",
+  "seasonNumber": 18,
+  "raceNumber": 19,
+  "totalLaps": 14,
+  "difficulty": 80,
+  "startingPosition": 18,
+  "finishPosition": 6,
+  "points": 8,
+  "fastestLap": false,
+  "bestLapMs": 97897,
+  "avgLapMs": 103961,
+  "pitStops": [
+    {
+      "lap": 7,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 1,
+      "positionAfter": 1,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 25,
+  "llmAvgLatencyMs": 3199,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P18 and finished P6. 1 stop on Lap7 M->H. Control-condition style run with confident rotation through medium-speed corners and mostly manual timing calls."
+}

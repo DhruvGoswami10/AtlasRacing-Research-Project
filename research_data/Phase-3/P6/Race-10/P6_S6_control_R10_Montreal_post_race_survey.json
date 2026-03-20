@@ -1,0 +1,33 @@
+{
+  "raceId": "P6_S6_control_R10_Montreal",
+  "participantId": "P6",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Montreal",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:03:37Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 75,
+    "physicalDemand": 50,
+    "temporalDemand": 70,
+    "performance": 0,
+    "effort": 80,
+    "frustration": 0,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 45.8
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

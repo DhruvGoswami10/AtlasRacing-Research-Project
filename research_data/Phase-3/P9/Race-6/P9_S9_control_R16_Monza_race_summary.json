@@ -1,0 +1,41 @@
+{
+  "raceId": "P9_S9_control_R16_Monza",
+  "participantId": "P9",
+  "date": "2026-02-09T22:07:00.000Z",
+  "track": "Monza",
+  "trackId": 11,
+  "seasonType": "control",
+  "seasonNumber": 9,
+  "raceNumber": 16,
+  "totalLaps": 13,
+  "difficulty": 80,
+  "startingPosition": 14,
+  "finishPosition": 7,
+  "points": 6,
+  "fastestLap": false,
+  "bestLapMs": 84385,
+  "avgLapMs": 91043,
+  "pitStops": [
+    {
+      "lap": 6,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 4,
+      "positionAfter": 8,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 28,
+  "llmAvgLatencyMs": 2399,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 2,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: mixed. Started P14 and finished P7. 1 stop on Lap6 M->H. Control-condition style run with tidy one-stop execution when the window opens and mostly manual timing calls."
+}

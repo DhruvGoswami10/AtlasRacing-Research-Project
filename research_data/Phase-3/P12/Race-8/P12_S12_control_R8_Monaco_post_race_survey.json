@@ -1,0 +1,33 @@
+{
+  "raceId": "P12_S12_control_R8_Monaco",
+  "participantId": "P12",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Monaco",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:05:51Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 70,
+    "physicalDemand": 90,
+    "temporalDemand": 60,
+    "performance": 40,
+    "effort": 80,
+    "frustration": 30,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 61.7
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

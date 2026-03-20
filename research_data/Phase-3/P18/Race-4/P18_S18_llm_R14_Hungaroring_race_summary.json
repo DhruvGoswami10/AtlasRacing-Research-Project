@@ -1,0 +1,41 @@
+{
+  "raceId": "P18_S18_llm_R14_Hungaroring",
+  "participantId": "P18",
+  "date": "2026-02-18T18:35:00.000Z",
+  "track": "Hungaroring",
+  "trackId": 9,
+  "seasonType": "llm",
+  "seasonNumber": 18,
+  "raceNumber": 14,
+  "totalLaps": 18,
+  "difficulty": 80,
+  "startingPosition": 17,
+  "finishPosition": 5,
+  "points": 10,
+  "fastestLap": true,
+  "bestLapMs": 80338,
+  "avgLapMs": 85126,
+  "pitStops": [
+    {
+      "lap": 12,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 2,
+      "positionAfter": 1,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 36,
+  "llmAvgLatencyMs": 1907,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 10,
+  "llmERSCalls": 8,
+  "llmDriverQuestions": 1,
+  "followedRate": 100,
+  "notes": "Strategy Quality: correct. Started P17 and finished P5. 1 stop on Lap12 M->H. Phase-3 synthetic run based on Phase-2 patterns, with confident rotation through medium-speed corners. Followed roughly 100% of the explicit advice."
+}

@@ -1,0 +1,33 @@
+{
+  "raceId": "P3_S3_control_R7_Imola",
+  "participantId": "P3",
+  "phase": "Phase-2",
+  "condition": "control",
+  "track": "Imola",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:02:11Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 75,
+    "physicalDemand": 80,
+    "temporalDemand": 90,
+    "performance": 70,
+    "effort": 90,
+    "frustration": 15,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 70
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 5
+  },
+  "openText": {
+    "comment": ""
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "raceId": "P19_S19_control_R13_Spa",
+  "participantId": "P19",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Spa",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:08:26Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 75,
+    "physicalDemand": 70,
+    "temporalDemand": 70,
+    "performance": 75,
+    "effort": 70,
+    "frustration": 85,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 74.2
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 5
+  },
+  "openText": {
+    "comment": ""
+  }
+}

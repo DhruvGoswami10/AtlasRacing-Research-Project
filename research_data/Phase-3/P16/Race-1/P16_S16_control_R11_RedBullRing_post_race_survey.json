@@ -1,0 +1,33 @@
+{
+  "raceId": "P16_S16_control_R11_RedBullRing",
+  "participantId": "P16",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Red Bull Ring",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:07:11Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 90,
+    "physicalDemand": 70,
+    "temporalDemand": 50,
+    "performance": 70,
+    "effort": 100,
+    "frustration": 95,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 79.2
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

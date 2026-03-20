@@ -1,0 +1,33 @@
+{
+  "raceId": "P2_S2_control_R12_Silverstone",
+  "participantId": "P2",
+  "phase": "Phase-2",
+  "condition": "control",
+  "track": "Silverstone",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:01:36Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 40,
+    "physicalDemand": 90,
+    "temporalDemand": 50,
+    "performance": 80,
+    "effort": 95,
+    "frustration": 95,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 75
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

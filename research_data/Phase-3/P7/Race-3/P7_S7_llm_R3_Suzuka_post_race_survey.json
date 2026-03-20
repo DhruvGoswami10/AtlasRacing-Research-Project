@@ -1,0 +1,33 @@
+{
+  "raceId": "P7_S7_llm_R3_Suzuka",
+  "participantId": "P7",
+  "phase": "Phase-3",
+  "condition": "llm",
+  "track": "Suzuka",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:03:44Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 40,
+    "physicalDemand": 60,
+    "temporalDemand": 80,
+    "performance": 30,
+    "effort": 100,
+    "frustration": 0,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 51.7
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 6
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 5
+  },
+  "openText": {
+    "comment": ""
+  }
+}

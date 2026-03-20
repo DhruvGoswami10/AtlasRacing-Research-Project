@@ -1,0 +1,33 @@
+{
+  "raceId": "P9_S9_control_R16_Monza",
+  "participantId": "P9",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Monza",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:04:36Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 70,
+    "physicalDemand": 50,
+    "temporalDemand": 80,
+    "performance": 60,
+    "effort": 85,
+    "frustration": 15,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 60
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

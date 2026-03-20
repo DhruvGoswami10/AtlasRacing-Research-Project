@@ -1,0 +1,33 @@
+{
+  "raceId": "P11_S11_control_R5_Jeddah",
+  "participantId": "P11",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Jeddah",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:05:21Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 75,
+    "physicalDemand": 50,
+    "temporalDemand": 50,
+    "performance": 80,
+    "effort": 100,
+    "frustration": 5,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 60
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 5
+  },
+  "openText": {
+    "comment": ""
+  }
+}

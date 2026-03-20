@@ -1,0 +1,41 @@
+{
+  "raceId": "P6_S6_control_R6_Miami",
+  "participantId": "P6",
+  "date": "2026-02-06T22:39:00.000Z",
+  "track": "Miami",
+  "trackId": 30,
+  "seasonType": "control",
+  "seasonNumber": 6,
+  "raceNumber": 6,
+  "totalLaps": 14,
+  "difficulty": 80,
+  "startingPosition": 17,
+  "finishPosition": 4,
+  "points": 12,
+  "fastestLap": true,
+  "bestLapMs": 92240,
+  "avgLapMs": 96298,
+  "pitStops": [
+    {
+      "lap": 7,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 7,
+      "positionAfter": 8,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 25,
+  "llmAvgLatencyMs": 2774,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P17 and finished P4. 1 stop on Lap7 M->H. Control-condition style run with late-braking confidence in traffic and mostly manual timing calls."
+}

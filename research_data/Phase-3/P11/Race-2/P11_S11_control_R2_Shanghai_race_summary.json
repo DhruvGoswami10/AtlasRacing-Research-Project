@@ -1,0 +1,41 @@
+{
+  "raceId": "P11_S11_control_R2_Shanghai",
+  "participantId": "P11",
+  "date": "2026-02-11T14:34:00.000Z",
+  "track": "Shanghai",
+  "trackId": 2,
+  "seasonType": "control",
+  "seasonNumber": 11,
+  "raceNumber": 2,
+  "totalLaps": 14,
+  "difficulty": 80,
+  "startingPosition": 17,
+  "finishPosition": 3,
+  "points": 15,
+  "fastestLap": false,
+  "bestLapMs": 96931,
+  "avgLapMs": 101153,
+  "pitStops": [
+    {
+      "lap": 13,
+      "compoundFrom": "Medium",
+      "compoundTo": "Soft",
+      "positionBefore": 2,
+      "positionAfter": 3,
+      "triggeredBy": "driver",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 12,
+  "llmAvgLatencyMs": 2432,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 1,
+  "llmERSCalls": 6,
+  "llmDriverQuestions": 0,
+  "followedRate": 0,
+  "notes": "Strategy Quality: correct. Started P17 and finished P3. 1 stop on Lap13 M->S. Control-condition style run with late-braking confidence in traffic and mostly manual timing calls."
+}

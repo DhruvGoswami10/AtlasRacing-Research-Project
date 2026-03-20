@@ -1,0 +1,41 @@
+{
+  "raceId": "P11_S11_llm_R9_Catalunya",
+  "participantId": "P11",
+  "date": "2026-02-12T04:41:00.000Z",
+  "track": "Catalunya",
+  "trackId": 4,
+  "seasonType": "llm",
+  "seasonNumber": 11,
+  "raceNumber": 9,
+  "totalLaps": 17,
+  "difficulty": 80,
+  "startingPosition": 18,
+  "finishPosition": 3,
+  "points": 15,
+  "fastestLap": false,
+  "bestLapMs": 77080,
+  "avgLapMs": 81053,
+  "pitStops": [
+    {
+      "lap": 10,
+      "compoundFrom": "Soft",
+      "compoundTo": "Medium",
+      "positionBefore": 4,
+      "positionAfter": 8,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 27,
+  "llmAvgLatencyMs": 2609,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 5,
+  "llmERSCalls": 8,
+  "llmDriverQuestions": 0,
+  "followedRate": 89,
+  "notes": "Strategy Quality: correct. Started P18 and finished P3. 1 stop on Lap10 S->M. Phase-3 synthetic run based on Phase-2 patterns, with late-braking confidence in traffic. Followed roughly 89% of the explicit advice."
+}

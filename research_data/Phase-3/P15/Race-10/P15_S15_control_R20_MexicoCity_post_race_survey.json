@@ -1,0 +1,33 @@
+{
+  "raceId": "P15_S15_control_R20_MexicoCity",
+  "participantId": "P15",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Mexico City",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:07:09Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 85,
+    "physicalDemand": 25,
+    "temporalDemand": 60,
+    "performance": 80,
+    "effort": 95,
+    "frustration": 30,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 62.5
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

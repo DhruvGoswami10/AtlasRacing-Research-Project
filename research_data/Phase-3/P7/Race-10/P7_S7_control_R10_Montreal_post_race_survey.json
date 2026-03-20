@@ -1,0 +1,33 @@
+{
+  "raceId": "P7_S7_control_R10_Montreal",
+  "participantId": "P7",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Montreal",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:04:00Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 70,
+    "physicalDemand": 100,
+    "temporalDemand": 80,
+    "performance": 5,
+    "effort": 100,
+    "frustration": 15,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 61.7
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

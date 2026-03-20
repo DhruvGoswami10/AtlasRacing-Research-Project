@@ -1,0 +1,33 @@
+{
+  "raceId": "P6_S6_control_R9_Catalunya",
+  "participantId": "P6",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Catalunya",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:03:35Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 95,
+    "physicalDemand": 70,
+    "temporalDemand": 90,
+    "performance": 5,
+    "effort": 90,
+    "frustration": 80,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 71.7
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 6
+  },
+  "openText": {
+    "comment": ""
+  }
+}

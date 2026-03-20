@@ -1,0 +1,33 @@
+{
+  "raceId": "P4_S4_llm_R11_RedBullRing",
+  "participantId": "P4",
+  "phase": "Phase-2",
+  "condition": "llm",
+  "track": "Red Bull Ring",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:02:20Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 60,
+    "physicalDemand": 0,
+    "temporalDemand": 100,
+    "performance": 20,
+    "effort": 90,
+    "frustration": 0,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 45
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": true,
+    "trustInAIRaceEngineer": 7
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}

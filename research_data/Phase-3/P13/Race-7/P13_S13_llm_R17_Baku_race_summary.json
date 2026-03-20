@@ -1,0 +1,41 @@
+{
+  "raceId": "P13_S13_llm_R17_Baku",
+  "participantId": "P13",
+  "date": "2026-02-14T00:30:00.000Z",
+  "track": "Baku",
+  "trackId": 20,
+  "seasonType": "llm",
+  "seasonNumber": 13,
+  "raceNumber": 17,
+  "totalLaps": 13,
+  "difficulty": 80,
+  "startingPosition": 18,
+  "finishPosition": 1,
+  "points": 25,
+  "fastestLap": false,
+  "bestLapMs": 103958,
+  "avgLapMs": 125859,
+  "pitStops": [
+    {
+      "lap": 3,
+      "compoundFrom": "Medium",
+      "compoundTo": "Hard",
+      "positionBefore": 2,
+      "positionAfter": 3,
+      "triggeredBy": "llm",
+      "llmRecommendedLap": null
+    }
+  ],
+  "totalPitStops": 1,
+  "weatherChanges": [],
+  "safetyCars": 0,
+  "virtualSafetyCars": 0,
+  "llmTotalCalls": 20,
+  "llmAvgLatencyMs": 3321,
+  "llmStrategyCommits": 1,
+  "llmStrategyAmends": 7,
+  "llmERSCalls": 5,
+  "llmDriverQuestions": 0,
+  "followedRate": 78,
+  "notes": "Strategy Quality: correct. Started P18 and finished P1. 1 stop on Lap3 M->H. Phase-3 synthetic run based on Phase-2 patterns, with confident rotation through medium-speed corners. Followed roughly 78% of the explicit advice."
+}

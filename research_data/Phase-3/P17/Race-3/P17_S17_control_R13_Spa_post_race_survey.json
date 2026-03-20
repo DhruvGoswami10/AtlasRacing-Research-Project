@@ -1,0 +1,33 @@
+{
+  "raceId": "P17_S17_control_R13_Spa",
+  "participantId": "P17",
+  "phase": "Phase-3",
+  "condition": "control",
+  "track": "Spa",
+  "timing": "post_race",
+  "formVersion": "1.0",
+  "submittedAt": "2026-03-20T18:07:39Z",
+  "nasaTlx": {
+    "scale": "0-100",
+    "mentalDemand": 90,
+    "physicalDemand": 40,
+    "temporalDemand": 100,
+    "performance": 30,
+    "effort": 95,
+    "frustration": 50,
+    "performanceHigherIsWorse": true,
+    "rawTlx": 67.5
+  },
+  "trust": {
+    "scale": "1-7",
+    "trustApplicable": false,
+    "trustInAIRaceEngineer": null
+  },
+  "responseQuality": {
+    "scale": "1-7",
+    "recallConfidence": 7
+  },
+  "openText": {
+    "comment": ""
+  }
+}
