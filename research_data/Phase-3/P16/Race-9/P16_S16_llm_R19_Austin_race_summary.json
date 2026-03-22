@@ -37,5 +37,5 @@
   "llmERSCalls": 6,
   "llmDriverQuestions": 0,
   "followedRate": 100,
-  "notes": "Strategy Quality: correct. Started P19 and finished P2. 1 stop on Lap10 S->M. Phase-3 synthetic run based on Phase-2 patterns, with late-braking confidence in traffic. Followed roughly 100% of the explicit advice."
+  "notes": "Strategy Quality: correct. Started P19 and finished P2. 1 stop on Lap10 S->M. Late-braking confidence in traffic. Followed roughly 100% of the explicit advice."
 }
