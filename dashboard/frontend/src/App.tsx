@@ -6,6 +6,7 @@ import { GTEnduranceDashboard } from './components/GTEnduranceDashboard';
 import { DevModeDashboard } from './components/DevModeDashboard';
 import { GPRaceBoard } from './components/GPRaceBoard';
 import { LiveRaceAnalysis } from './components/LiveRaceAnalysis';
+import { RaceModeDashboard } from './components/RaceModeDashboard';
 import { DashboardSelection } from './components/DashboardSelection';
 import { Button } from './components/ui/button';
 import { ArrowLeft } from 'lucide-react';
@@ -18,7 +19,8 @@ type DashboardId =
   | 'gt-endurance'
   | 'live-analysis'
   | 'dev-mode'
-  | 'gp-race-board';
+  | 'gp-race-board'
+  | 'race-mode';
 type ViewType = 'dashboard-selection' | 'dashboard';
 
 // Main App content component (used inside HashRouter)
@@ -164,6 +166,7 @@ function AppContent() {
             {selectedDashboard === 'live-analysis' && <LiveRaceAnalysis />}
             {selectedDashboard === 'dev-mode' && <DevModeDashboard />}
             {selectedDashboard === 'gp-race-board' && <GPRaceBoard />}
+            {selectedDashboard === 'race-mode' && <RaceModeDashboard />}
           </div>
         )}
       </div>

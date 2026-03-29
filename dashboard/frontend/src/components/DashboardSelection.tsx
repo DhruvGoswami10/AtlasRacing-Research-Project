@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
-import { ArrowRight, Gauge, Trophy, Code, Radio, LogOut } from 'lucide-react';
+import { ArrowRight, Gauge, Trophy, Code, Radio, LogOut, Flag } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 type DashboardId =
@@ -9,7 +9,8 @@ type DashboardId =
   | 'gt-endurance'
   | 'live-analysis'
   | 'dev-mode'
-  | 'gp-race-board';
+  | 'gp-race-board'
+  | 'race-mode';
 
 interface DashboardOption {
   id: DashboardId;
@@ -92,6 +93,22 @@ const dashboards: DashboardOption[] = [
     ],
     icon: <Radio className="w-6 h-6" />,
     status: 'beta',
+    category: 'f1',
+  },
+  {
+    id: 'race-mode',
+    name: 'Race Mode Dashboard',
+    description:
+      'Clean 3-column race view: timing & gaps, tyre & fuel, ERS & strategy with live LLM advice card',
+    features: [
+      'Timing tower with gaps',
+      'Tyre wear rings (FL/FR/RL/RR)',
+      'ERS battery & mode',
+      'Pit window visualiser',
+      'Live LLM race engineer advice',
+    ],
+    icon: <Flag className="w-6 h-6" />,
+    status: 'new',
     category: 'f1',
   },
 ];
